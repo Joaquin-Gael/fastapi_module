@@ -1,0 +1,1 @@
+uvicorn server.main:app --host %SERVER_HOST% --port %SERVER_PORT% --reload

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block view %}
+    <nav  class="bg-neutral-primary fixed w-full z-20 top-0 start-0 border-b border-default">
+        <ul>
+        </ul>
+    </nav>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2023 FastAPI Module</p>
+    </footer>
+{% endblock %}
