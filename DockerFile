@@ -1,2 +1,13 @@
 FROM python:3.13-alpine
 
+WORKDIR /server
+
+COPY . .
+
+ARG SERVER_PORT
+
+EXPOSE ${SERVER_PORT}
+
+ARG SETUP_FILE
+
+RUN ${SETUP_FILE}

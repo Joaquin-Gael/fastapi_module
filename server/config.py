@@ -34,10 +34,13 @@ class Settings(BaseSettings):
     secret_key: str = "CHANGE_ME"
     access_token_expire_minutes: int = 30
     jwt_algorithm: str = "HS256"
+    auth_header: Optional[str] = None
+    value_prefix: Optional[str] = None
 
     admin_initial_email: EmailStr = "admin@example.com"
     admin_initial_username: str = "admin"
     admin_initial_password: str = "CHANGE_ME"
+    password_regex: Optional[str] = None
 
     sentry_dsn: Optional[str] = None
     timezone: str = "UTC"
