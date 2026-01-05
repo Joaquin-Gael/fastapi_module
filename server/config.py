@@ -1,6 +1,7 @@
 from typing import List, Optional
 from pydantic import EmailStr, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
+from pathlib import Path
 
 
 class Settings(BaseSettings):
@@ -13,6 +14,10 @@ class Settings(BaseSettings):
     app_name: str = "FastAPI Module"
     app_description: str = "Template modular para FastAPI server"
     app_version: str = "0.1.0"
+
+    template_dir: str = "templates"
+    static_dir: str = "static"
+    media_dir: str = "media"
 
     api_prefix: str = "/api"
     api_version: str = "v1"
@@ -30,6 +35,9 @@ class Settings(BaseSettings):
     database_url: str = "sqlite:///./data/app.db"
     db_pool_size: int = 5
     db_pool_max_overflow: int = 10
+
+    redis_url: str = "redis://localhost:6379/0"
+    redis_password: str = ""
 
     secret_key: str = "CHANGE_ME"
     access_token_expire_minutes: int = 30
@@ -51,6 +59,18 @@ class Settings(BaseSettings):
 
     pagination_default_limit: int = 50
     pagination_max_limit: int = 200
+
+    @property
+    def template_dir(self):
+        return Path(__file__).parent.parent / self.template_dir
+
+    @property
+    def static_dir(self):
+        return Path(__file__).parent.parent / self.static_dir
+
+    @property
+    def media_dir(self):
+        return Path(__file__).parent.parent / self.media_dir
 
     @field_validator("cors_allowed_origins", "cors_allowed_headers", "cors_allowed_methods", mode="before")
     @classmethod
