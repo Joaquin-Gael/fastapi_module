@@ -2,8 +2,10 @@ from sqlmodel import SQLModel
 from fastapi import Depends
 from typing import Annotated
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine, AsyncEngine
+from server.config import Settings
 
-engine: AsyncEngine = create_async_engine("postgresql+asyncpg://postgres:postgres@localhost:5432/postgres", echo=True)
+
+engine: AsyncEngine = create_async_engine(Settings().database_url, echo=Settings().debug)
 
 async def init_db():
     async with engine.begin() as conn:

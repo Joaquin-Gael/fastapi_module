@@ -14,8 +14,11 @@ import os
 import re
 from typing import Any, Dict
 from datetime import datetime, timezone
+from pathlib import Path
 
 from rich.logging import RichHandler
+
+from server.core.tasks.base.task_save_logs import rsave_log, save_log
 
 try:
     # Si existe configuración tipada, la usamos para leer DEBUG
@@ -128,6 +131,27 @@ class TZFormatter(logging.Formatter):
         return f"{base}Z" if self.tz == timezone.utc else base
 
 
+class RedisHandler(logging.Handler):
+    def emit(self, record: logging.LogRecord):
+        try:
+            log_data = {
+                "meta": getattr(record, "meta", {}),
+                "type": record.levelname,
+                "level": getattr(record, "loglevel", None),
+                "status": getattr(record, "status", None),
+                "action": getattr(record, "action", None),
+                "assistant_message": getattr(record, "assistant_message", "N/A"),
+                "source": getattr(record, "source", "N/A"),
+                "final_message": record.getMessage(),
+            }
+            
+            rsave_log.delay(log_data)
+            save_log.delay(log_data)
+
+        except Exception as e:
+            print(f"Error al guardar log en redis: {e}")
+            self.handleError(record)
+
 _configured = False
 
 
@@ -165,21 +189,37 @@ def configure_logging() -> None:
     logging.root.setLevel(level)
 
     # Handler rico para consola con traceback legible
-    handler = RichHandler(
+    console_handler = RichHandler(
         rich_traceback=True,
         show_time=False,  # lo manejamos con nuestro Formatter
         show_level=True,
         show_path=False,  # usamos filename:lineno del Formatter
     )
-    handler.setLevel(level)
-    handler.setFormatter(TZFormatter(tz=timezone.utc))
+    console_handler.setLevel(level)
+    console_handler.setFormatter(TZFormatter(tz=timezone.utc))
+    console_handler.addFilter(SensitiveDataFilter(debug=debug))
 
-    # Filtro de datos sensibles (activo cuando no hay DEBUG)
-    handler.addFilter(SensitiveDataFilter(debug=debug))
+    # Handler para archivo
+    log_file = Path("data/server.log")
+    log_file.parent.mkdir(parents=True, exist_ok=True)
+    file_handler = logging.FileHandler(log_file, encoding="utf-8")
+    file_handler.setLevel(level)
+    file_handler.setFormatter(TZFormatter(tz=timezone.utc))
+    file_handler.addFilter(SensitiveDataFilter(debug=debug))
+
+    # Handler para Redis
+    redis_handler = RedisHandler()
+    redis_handler.setLevel(level)
+    redis_handler.setFormatter(TZFormatter(tz=timezone.utc))
+    redis_handler.addFilter(SensitiveDataFilter(debug=debug))
+
+
 
     # Limpia handlers previos para evitar duplicados
     logging.root.handlers.clear()
-    logging.root.addHandler(handler)
+    logging.root.addHandler(console_handler)
+    logging.root.addHandler(file_handler)
+    logging.root.addHandler(redis_handler)
 
     _configured = True
 

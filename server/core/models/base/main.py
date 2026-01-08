@@ -41,7 +41,7 @@ class BaseSQLModel(SQLModel, MixinBaseSQLModel, table=False):
             result = await session.get(cls, id)
             return result
         except Exception as e:
-            logger.error(f"Error al obtener {cls.__name__} por id {id}: {e}")
+            logger.debug(f"Error al obtener {cls.__name__} por id {id}: {e}")
             raise e
 
     @classmethod
@@ -66,15 +66,25 @@ class BaseSQLModel(SQLModel, MixinBaseSQLModel, table=False):
             results = await session.execute(query)
             return results.fetchall()
         except Exception as e:
-            logger.error(f"Error al obtener {cls.__name__} por {form}: {e}")
+            logger.debug(f"Error al obtener {cls.__name__} por {form}: {e}")
             raise e
-    
+    @classmethod
+    async def create(cls, data: dict, session: AsyncSession):
+        try:
+            instance = cls(**data)
+            session.add(instance)
+            await session.commit()
+            return instance
+        except Exception as e:
+            logger.debug(f"Error al crear {cls.__name__} por {data}: {e}")
+            raise e
+
     async def delete(self, session: AsyncSession):
         try:
             await session.delete(self)
             await session.commit()
         except Exception as e:
-            logger.error(f"Error al eliminar {self.__class__.__name__} por id {self.id}: {e}")
+            logger.debug(f"Error al eliminar {self.__class__.__name__} por id {self.id}: {e}")
             raise e
     
     @classmethod
@@ -88,9 +98,9 @@ class BaseSQLModel(SQLModel, MixinBaseSQLModel, table=False):
                     await session.delete(v)
                 await session.commit()
             else:
-                logger.warning(f"No se encontraron {cls.__name__} con {field} {value}")
+                logger.info(f"No se encontraron {cls.__name__} con {field} {value}")
         except Exception as e:
-            logger.error(f"Error al eliminar {cls.__name__} por {field} {value}: {e}")
+            logger.debug(f"Error al eliminar {cls.__name__} por {field} {value}: {e}")
             raise e
 
 @event.listens_for(BaseSQLModel, "before_insert")

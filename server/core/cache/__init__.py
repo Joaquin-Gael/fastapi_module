@@ -1,0 +1,1 @@
+from .main import redis_client as rc

@@ -31,6 +31,7 @@ class Settings(BaseSettings):
     cors_allowed_origins: List[str] = ["*"]
     cors_allowed_headers: List[str] = ["*"]
     cors_allowed_methods: List[str] = ["*"]
+    cors_allow_credentials: bool = True
 
     database_url: str = "sqlite:///./data/app.db"
     db_pool_size: int = 5
@@ -61,16 +62,16 @@ class Settings(BaseSettings):
     pagination_max_limit: int = 200
 
     @property
-    def template_dir(self):
-        return Path(__file__).parent.parent / self.template_dir
+    def template_dir_full(self):
+        return Path(__file__).parent / self.template_dir
 
     @property
-    def static_dir(self):
-        return Path(__file__).parent.parent / self.static_dir
+    def static_dir_full(self):
+        return Path(__file__).parent / self.static_dir
 
     @property
-    def media_dir(self):
-        return Path(__file__).parent.parent / self.media_dir
+    def media_dir_full(self):
+        return Path(__file__).parent / self.media_dir
 
     @field_validator("cors_allowed_origins", "cors_allowed_headers", "cors_allowed_methods", mode="before")
     @classmethod

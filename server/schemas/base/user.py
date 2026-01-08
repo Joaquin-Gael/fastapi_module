@@ -9,7 +9,7 @@ class BaseUserSchema(BaseSchema):
     email: Optional[EmailStr] = Field(max_length=30, nullable=False, unique=True)
     password: Optional[str] = Field(max_length=128, nullable=False)
 
-    avtive: Optional[bool] = Field(default=True, nullable=False)
+    active: Optional[bool] = Field(default=True, nullable=False)
 
     scopes: Optional[list] = Field(default_factory=list, nullable=False)
     groups: Optional[list] = Field(default_factory=list, nullable=False)
