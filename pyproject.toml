@@ -18,7 +18,9 @@ dependencies = [
     "redis[hiredis] (>=7.1.0,<8.0.0)",
     "celery (>=5.6.2,<6.0.0)",
     "textual (>=7.0.1,<8.0.0)",
-    "pyfiglet (>=1.0.4,<2.0.0)"
+    "pyfiglet (>=1.0.4,<2.0.0)",
+    "slowapi (>=0.1.9,<0.2.0)",
+    "aiosqlite (>=0.22.1,<0.23.0)"
 ]
 
 

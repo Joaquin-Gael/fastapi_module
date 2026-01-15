@@ -3,8 +3,9 @@ from sqlalchemy.dialects.postgresql import UUID as PSUUID
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import declared_attr, mapped_column, Mapped
 from sqlalchemy import event
-from uuid import UUID, uuid5
+from uuid import UUID, uuid6
 from typing import Any
+from datetime import datetime, timezone
 
 #from server.core.database import get_session
 from server.core.utils.logger import get_logger
@@ -13,25 +14,32 @@ logger = get_logger(__name__)
 
 class MixinBaseSQLModel:
     @declared_attr
-    def id(cls) -> Mapped[UUID]:
-        id_name = [ch.lower() if idx == 0 else f"_{ch.lower()}" for idx, ch in enumerate(str(cls.__name__)) if ch.isupper() and idx > 0]
-        return mapped_column(PSUUID, default_factory=uuid5, primary_key=True, name=f"{id_name}_id")
+    def id(cls):
+        try:
+            id_name = [ch.lower() if idx == 0 else f"_{ch.lower()}" for idx, ch in enumerate(str(cls.__name__)) if ch.isupper() and idx > 0]
+            id_name_str = "".join(id_name)
+            col_name = f"{id_name_str}_id" if id_name_str else "id"
+            
+            return mapped_column(PSUUID, default_factory=uuid6, primary_key=True, name=col_name)
+        except Exception as e:
+            print(f"Error al generar id para {cls.__name__}: {e}")
+            return mapped_column(PSUUID, default_factory=uuid6, primary_key=True, name="id")
         
 
 
 class BaseSQLModel(SQLModel, MixinBaseSQLModel, table=False):
     id: UUID = Field(
-        sa_type=PSUUID,
-        default_factory=uuid5,
-        primary_key=True,
-        sa_column_kwargs={"name": "id"}
+         sa_type=PSUUID,
+         default_factory=uuid6,
+         primary_key=True,
+         sa_column_kwargs={"name": "id"}
     )
     created_at: datetime = Field(
-        default_factory=datetime.now,
+        default_factory=lambda: datetime.now(timezone.utc),
         sa_column_kwargs={"name": "created_at"}
     )
     updated_at: datetime = Field(
-        default_factory=datetime.now,
+        default_factory=lambda: datetime.now(timezone.utc),
         sa_column_kwargs={"name": "updated_at"}
     )
 
@@ -105,9 +113,9 @@ class BaseSQLModel(SQLModel, MixinBaseSQLModel, table=False):
 
 @event.listens_for(BaseSQLModel, "before_insert")
 def before_insert(mapper, connection, target):
-    target.created_at = datetime.now()
-    target.updated_at = datetime.now()
+    target.created_at = datetime.now(timezone.utc)
+    target.updated_at = datetime.now(timezone.utc)
 
 @event.listens_for(BaseSQLModel, "before_update")
 def before_update(mapper, connection, target):
-    target.updated_at = datetime.now()
+    target.updated_at = datetime.now(timezone.utc)

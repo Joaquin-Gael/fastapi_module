@@ -4,13 +4,20 @@ from contextlib import asynccontextmanager
 
 from server.routes import router
 from server.config import Settings
+from server.core.utils.logger import get_logger
+from server.core.database import init_db, close_db
+
+logger = get_logger(__name__)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Startup
+    logger.info("Lifespan startup: Initializing DB...")
+    await init_db()
+    logger.info("Lifespan startup: DB Initialized.")
     yield
-    # Shutdown
-    pass
+    logger.info("Lifespan shutdown: Closing DB...")
+    await close_db()
+    logger.info("Lifespan shutdown: DB Closed.")
 
 app = FastAPI(
     lifespan=lifespan,

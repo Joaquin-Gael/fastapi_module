@@ -1,0 +1,1891 @@
+2026-01-15T18:45:32Z | INFO | server.py:84 | Started server process [17688]
+2026-01-15T18:45:40Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15T18:45:40Z | INFO | on.py:62 | Application startup complete.
+2026-01-15T18:46:13Z | INFO | server.py:264 | Shutting down
+2026-01-15T18:46:13Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:46:13Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15T18:46:14Z | INFO | on.py:67 | Waiting for application shutdown.
+2026-01-15T18:46:14Z | INFO | on.py:76 | Application shutdown complete.
+2026-01-15T18:46:14Z | INFO | server.py:94 | Finished server process [17688]
+2026-01-15T18:46:14Z | INFO | server.py:84 | Started server process [26996]
+2026-01-15T18:46:15Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:46:15Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15T18:46:15Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15T18:46:15Z | INFO | on.py:62 | Application startup complete.
+2026-01-15T18:47:32Z | INFO | server.py:264 | Shutting down
+2026-01-15T18:47:32Z | INFO | on.py:67 | Waiting for application shutdown.
+2026-01-15T18:47:32Z | INFO | on.py:76 | Application shutdown complete.
+2026-01-15T18:47:32Z | INFO | server.py:94 | Finished server process [26996]
+2026-01-15T18:47:33Z | INFO | server.py:84 | Started server process [23848]
+2026-01-15T18:47:33Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:47:33Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15T18:47:33Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15T18:47:33Z | INFO | on.py:62 | Application startup complete.
+2026-01-15T18:47:43Z | INFO | server.py:264 | Shutting down
+2026-01-15T18:47:43Z | INFO | on.py:67 | Waiting for application shutdown.
+2026-01-15T18:47:43Z | INFO | on.py:76 | Application shutdown complete.
+2026-01-15T18:47:43Z | INFO | server.py:94 | Finished server process [23848]
+2026-01-15T18:47:43Z | INFO | server.py:84 | Started server process [17628]
+2026-01-15T18:47:44Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:47:44Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15T18:47:44Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15T18:47:44Z | INFO | on.py:62 | Application startup complete.
+2026-01-15T18:48:36Z | INFO | server.py:264 | Shutting down
+2026-01-15T18:48:37Z | INFO | on.py:67 | Waiting for application shutdown.
+2026-01-15T18:48:37Z | INFO | on.py:76 | Application shutdown complete.
+2026-01-15T18:48:37Z | INFO | server.py:94 | Finished server process [17628]
+2026-01-15T18:48:37Z | INFO | server.py:84 | Started server process [7792]
+2026-01-15T18:48:37Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:48:37Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15T18:48:37Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15T18:48:37Z | INFO | on.py:62 | Application startup complete.
+2026-01-15T18:48:42Z | INFO | server.py:264 | Shutting down
+2026-01-15T18:48:42Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:48:42Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:48:42Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:48:42Z | INFO | on.py:67 | Waiting for application shutdown.
+2026-01-15T18:48:42Z | INFO | on.py:76 | Application shutdown complete.
+2026-01-15T18:48:42Z | INFO | server.py:94 | Finished server process [7792]
+2026-01-15T18:48:43Z | INFO | server.py:84 | Started server process [29412]
+2026-01-15T18:48:43Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:48:43Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15T18:48:43Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:48:43Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:48:43Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:48:43Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15T18:48:43Z | INFO | on.py:62 | Application startup complete.
+2026-01-15T18:49:05Z | INFO | server.py:264 | Shutting down
+2026-01-15T18:49:06Z | INFO | on.py:67 | Waiting for application shutdown.
+2026-01-15T18:49:06Z | INFO | on.py:76 | Application shutdown complete.
+2026-01-15T18:49:06Z | INFO | server.py:94 | Finished server process [29412]
+2026-01-15T18:49:06Z | INFO | server.py:84 | Started server process [19496]
+2026-01-15T18:49:06Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:49:06Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15T18:49:06Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:49:06Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:49:06Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:49:06Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15T18:49:06Z | INFO | on.py:62 | Application startup complete.
+2026-01-15T18:49:12Z | INFO | server.py:264 | Shutting down
+2026-01-15T18:49:12Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:49:12Z | INFO | on.py:67 | Waiting for application shutdown.
+2026-01-15T18:49:12Z | INFO | on.py:76 | Application shutdown complete.
+2026-01-15T18:49:12Z | INFO | server.py:94 | Finished server process [19496]
+2026-01-15T18:49:13Z | INFO | server.py:84 | Started server process [9916]
+2026-01-15T18:49:13Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:49:13Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15T18:49:13Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:49:13Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:49:13Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:49:13Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:49:13Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15T18:49:13Z | INFO | on.py:62 | Application startup complete.
+2026-01-15T18:49:52Z | INFO | server.py:264 | Shutting down
+2026-01-15T18:49:52Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:49:52Z | INFO | on.py:67 | Waiting for application shutdown.
+2026-01-15T18:49:52Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15T18:49:52Z | INFO | on.py:76 | Application shutdown complete.
+2026-01-15T18:49:52Z | INFO | server.py:94 | Finished server process [9916]
+2026-01-15T18:49:53Z | INFO | server.py:84 | Started server process [29624]
+2026-01-15T18:49:53Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:49:53Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15T18:49:53Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:49:53Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:49:53Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:49:53Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:49:53Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:49:53Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15T18:49:53Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15T18:49:53Z | INFO | on.py:62 | Application startup complete.
+2026-01-15T18:53:24Z | INFO | server.py:264 | Shutting down
+2026-01-15T18:53:24Z | INFO | on.py:67 | Waiting for application shutdown.
+2026-01-15T18:53:24Z | INFO | on.py:76 | Application shutdown complete.
+2026-01-15T18:53:24Z | INFO | server.py:94 | Finished server process [29624]
+2026-01-15T18:53:24Z | INFO | server.py:84 | Started server process [16436]
+2026-01-15T18:53:25Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:53:25Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15T18:53:25Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:53:25Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:53:25Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:53:25Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:53:25Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:53:25Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15T18:53:25Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15T18:53:25Z | INFO | on.py:62 | Application startup complete.
+2026-01-15T18:54:44Z | INFO | server.py:264 | Shutting down
+2026-01-15T18:54:45Z | INFO | on.py:67 | Waiting for application shutdown.
+2026-01-15T18:54:45Z | INFO | on.py:76 | Application shutdown complete.
+2026-01-15T18:54:45Z | INFO | server.py:94 | Finished server process [16436]
+2026-01-15T18:54:45Z | INFO | server.py:84 | Started server process [20116]
+2026-01-15T18:54:45Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:54:45Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15T18:54:45Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:54:45Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:54:46Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:54:46Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:54:46Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:54:46Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15T18:54:46Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15T18:54:46Z | INFO | on.py:62 | Application startup complete.
+2026-01-15T18:55:19Z | INFO | server.py:264 | Shutting down
+2026-01-15T18:55:20Z | INFO | on.py:67 | Waiting for application shutdown.
+2026-01-15T18:55:20Z | INFO | on.py:76 | Application shutdown complete.
+2026-01-15T18:55:20Z | INFO | server.py:94 | Finished server process [20116]
+2026-01-15T18:55:20Z | INFO | server.py:84 | Started server process [29216]
+2026-01-15T18:55:20Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:55:20Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15T18:55:20Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:55:20Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:55:20Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:55:20Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:55:20Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:55:20Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15T18:55:20Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15T18:55:20Z | INFO | on.py:62 | Application startup complete.
+2026-01-15T18:55:44Z | INFO | server.py:264 | Shutting down
+2026-01-15T18:55:44Z | INFO | on.py:67 | Waiting for application shutdown.
+2026-01-15T18:55:44Z | INFO | on.py:76 | Application shutdown complete.
+2026-01-15T18:55:44Z | INFO | server.py:94 | Finished server process [29216]
+2026-01-15T18:55:45Z | INFO | server.py:84 | Started server process [24752]
+2026-01-15T18:55:45Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:55:45Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15T18:55:45Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:55:45Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:55:45Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:55:45Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:55:45Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:55:45Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15T18:55:45Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15T18:55:45Z | INFO | on.py:62 | Application startup complete.
+2026-01-15T18:55:48Z | INFO | server.py:264 | Shutting down
+2026-01-15T18:55:49Z | INFO | on.py:67 | Waiting for application shutdown.
+2026-01-15T18:55:49Z | INFO | on.py:76 | Application shutdown complete.
+2026-01-15T18:55:49Z | INFO | server.py:94 | Finished server process [24752]
+2026-01-15T18:55:49Z | INFO | server.py:84 | Started server process [27256]
+2026-01-15T18:55:49Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:55:49Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15T18:55:49Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:55:49Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:55:49Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:55:49Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:55:49Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:55:49Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15T18:55:49Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15T18:55:49Z | INFO | on.py:62 | Application startup complete.
+2026-01-15T18:56:49Z | INFO | server.py:264 | Shutting down
+2026-01-15T18:56:49Z | INFO | on.py:67 | Waiting for application shutdown.
+2026-01-15T18:56:49Z | INFO | on.py:76 | Application shutdown complete.
+2026-01-15T18:56:49Z | INFO | server.py:94 | Finished server process [27256]
+2026-01-15T18:56:50Z | INFO | server.py:84 | Started server process [22536]
+2026-01-15T18:56:50Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:56:50Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15T18:56:50Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:56:50Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:56:50Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:56:50Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:56:50Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:56:50Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15T18:56:50Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15T18:56:50Z | INFO | on.py:62 | Application startup complete.
+2026-01-15T18:57:51Z | INFO | server.py:264 | Shutting down
+2026-01-15T18:57:51Z | INFO | on.py:67 | Waiting for application shutdown.
+2026-01-15T18:57:51Z | INFO | on.py:76 | Application shutdown complete.
+2026-01-15T18:57:51Z | INFO | server.py:94 | Finished server process [22536]
+2026-01-15T18:57:52Z | INFO | server.py:84 | Started server process [20484]
+2026-01-15T18:57:52Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:57:52Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15T18:57:52Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:57:52Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T18:57:52Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:57:52Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:57:52Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T18:57:52Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15T18:57:52Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15T18:57:52Z | INFO | on.py:62 | Application startup complete.
+2026-01-15T18:59:19Z | INFO | server.py:264 | Shutting down
+2026-01-15T18:59:19Z | INFO | on.py:67 | Waiting for application shutdown.
+2026-01-15T18:59:19Z | INFO | on.py:76 | Application shutdown complete.
+2026-01-15T18:59:19Z | INFO | server.py:94 | Finished server process [20484]
+2026-01-15T19:04:03Z | INFO | config.py:322 | Will watch for changes in these directories: ['C:\\Users\\Usuario\\p\\python\\fastapi_module']
+2026-01-15T19:04:03Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T19:04:03Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15T19:04:03Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T19:04:03Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T19:04:03Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T19:04:03Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T19:04:03Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T19:04:03Z | INFO | config.py:543 | Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-01-15T19:04:03Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15T19:04:03Z | INFO | basereload.py:80 | Started reloader process [19552] using WatchFiles
+2026-01-15T19:04:03Z | INFO | server.py:84 | Started server process [17916]
+2026-01-15T19:04:04Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T19:04:04Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15T19:04:04Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T19:04:04Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15T19:04:04Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T19:04:04Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T19:04:04Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15T19:04:04Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15T19:04:04Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15T19:04:04Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\p\python\fastapi_module\server\main.py:14: RuntimeWarning: coroutine 'init_db' was never awaited
+  init_db()
+
+2026-01-15T19:04:04Z | INFO | on.py:62 | Application startup complete.
+2026-01-15T19:04:08Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15T19:04:08Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15T19:04:09Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15T19:04:09Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15T19:04:09Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15T19:04:10Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15T19:04:10Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15T19:04:11Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15T19:04:11Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15T19:04:11Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15T19:04:12Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15T19:04:12Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15T19:04:13Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15T19:04:13Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15T19:04:13Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15T19:04:14Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15T19:04:14Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15T19:04:15Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15T19:04:15Z | INFO | server.py:264 | Shutting down
+2026-01-15T19:04:15Z | INFO | on.py:67 | Waiting for application shutdown.
+2026-01-15T19:04:15Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\p\python\fastapi_module\server\main.py:16: RuntimeWarning: coroutine 'close_db' was never awaited
+  close_db()
+
+2026-01-15T19:04:15Z | INFO | on.py:76 | Application shutdown complete.
+2026-01-15T19:04:15Z | INFO | server.py:94 | Finished server process [17916]
+2026-01-15T19:04:15Z | INFO | basereload.py:116 | Stopping reloader process [19552]
+2026-01-15/19:11:36Z | [bold]INFO[/bold] | config.py:322 | Will watch for changes in these directories: ['C:\\Users\\Usuario\\p\\python\\fastapi_module']
+2026-01-15/19:11:36Z | [bold]INFO[/bold] | config.py:543 | Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-01-15/19:11:36Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15/19:11:36Z | [bold]INFO[/bold] | basereload.py:80 | Started reloader process [18396] using WatchFiles
+2026-01-15/19:11:37Z | [bold]INFO[/bold] | server.py:84 | Started server process [10580]
+2026-01-15/19:11:37Z | [bold]INFO[/bold] | on.py:48 | Waiting for application startup.
+2026-01-15/19:11:37Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15/19:11:37Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\p\python\fastapi_module\server\main.py:14: RuntimeWarning: coroutine 'init_db' was never awaited
+  init_db()
+
+2026-01-15/19:11:37Z | [bold]INFO[/bold] | on.py:62 | Application startup complete.
+2026-01-15/19:11:42Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:42Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:43Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:43Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:44Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:44Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:44Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:45Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:45Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:46Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:46Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:46Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:47Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:47Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:48Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:48Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:48Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:49Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:49Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:50Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:50Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:11:50Z | [bold]INFO[/bold] | server.py:264 | Shutting down
+2026-01-15/19:11:50Z | [bold]INFO[/bold] | on.py:67 | Waiting for application shutdown.
+2026-01-15/19:11:50Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\p\python\fastapi_module\server\main.py:16: RuntimeWarning: coroutine 'close_db' was never awaited
+  close_db()
+
+2026-01-15/19:11:50Z | [bold]INFO[/bold] | on.py:76 | Application shutdown complete.
+2026-01-15/19:11:50Z | [bold]INFO[/bold] | server.py:94 | Finished server process [10580]
+2026-01-15/19:11:50Z | [bold]INFO[/bold] | basereload.py:116 | Stopping reloader process [18396]
+2026-01-15/19:12:09Z | [bold]INFO[/bold] | config.py:322 | Will watch for changes in these directories: ['C:\\Users\\Usuario\\p\\python\\fastapi_module']
+2026-01-15/19:12:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:12:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15/19:12:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:12:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:12:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:12:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:12:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:12:09Z | [bold]INFO[/bold] | config.py:543 | Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-01-15/19:12:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15/19:12:09Z | [bold]INFO[/bold] | basereload.py:80 | Started reloader process [4984] using WatchFiles
+2026-01-15/19:12:09Z | [bold]INFO[/bold] | server.py:84 | Started server process [28064]
+2026-01-15/19:12:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:12:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15/19:12:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:12:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:12:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:12:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:12:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:12:09Z | [bold]INFO[/bold] | on.py:48 | Waiting for application startup.
+2026-01-15/19:12:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15/19:12:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\p\python\fastapi_module\server\main.py:14: RuntimeWarning: coroutine 'init_db' was never awaited
+  init_db()
+
+2026-01-15/19:12:09Z | [bold]INFO[/bold] | on.py:62 | Application startup complete.
+2026-01-15/19:12:12Z | [bold]INFO[/bold] | server.py:264 | Shutting down
+2026-01-15/19:12:12Z | [bold]INFO[/bold] | on.py:67 | Waiting for application shutdown.
+2026-01-15/19:12:12Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\p\python\fastapi_module\server\main.py:16: RuntimeWarning: coroutine 'close_db' was never awaited
+  close_db()
+
+2026-01-15/19:12:12Z | [bold]INFO[/bold] | on.py:76 | Application shutdown complete.
+2026-01-15/19:12:12Z | [bold]INFO[/bold] | server.py:94 | Finished server process [28064]
+2026-01-15/19:12:12Z | [bold]INFO[/bold] | basereload.py:116 | Stopping reloader process [4984]
+2026-01-15/19:13:12Z | [bold]INFO[/bold] | config.py:322 | Will watch for changes in these directories: ['C:\\Users\\Usuario\\p\\python\\fastapi_module']
+2026-01-15/19:13:13Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:13:13Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15/19:13:13Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:13:13Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:13:13Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:13:13Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:13:13Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:13:13Z | [bold]INFO[/bold] | config.py:543 | Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-01-15/19:13:13Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15/19:13:13Z | [bold]INFO[/bold] | basereload.py:80 | Started reloader process [21952] using WatchFiles
+2026-01-15/19:13:13Z | [bold]INFO[/bold] | server.py:84 | Started server process [27264]
+2026-01-15/19:13:13Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:13:13Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15/19:13:13Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:13:13Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:13:13Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:13:13Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:13:13Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:13:13Z | [bold]INFO[/bold] | on.py:48 | Waiting for application startup.
+2026-01-15/19:13:13Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15/19:13:13Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:13:13Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\p\python\fastapi_module\server\main.py:14: RuntimeWarning: coroutine 'init_db' was never awaited
+  init_db()
+
+2026-01-15/19:13:13Z | [bold]INFO[/bold] | on.py:62 | Application startup complete.
+2026-01-15/19:13:14Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:13:14Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:13:14Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:13:15Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:13:15Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:13:16Z | [bold]INFO[/bold] | server.py:264 | Shutting down
+2026-01-15/19:13:16Z | [bold]INFO[/bold] | server.py:94 | Finished server process [27264]
+2026-01-15/19:13:16Z | [bold]ERROR[/bold] | on.py:134 | Traceback (most recent call last):
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 2046, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\uvicorn\server.py", line 70, in serve
+    with self.capture_signals():
+         ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\uvicorn\server.py", line 331, in capture_signals
+    signal.raise_signal(captured_signal)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 166, in _on_sigint
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-01-15/19:13:16Z | [bold]INFO[/bold] | basereload.py:116 | Stopping reloader process [21952]
+2026-01-15/19:19:21Z | [bold]INFO[/bold] | config.py:322 | Will watch for changes in these directories: ['C:\\Users\\Usuario\\p\\python\\fastapi_module']
+2026-01-15/19:19:21Z | [bold]INFO[/bold] | config.py:543 | Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-01-15/19:19:21Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15/19:19:21Z | [bold]INFO[/bold] | basereload.py:80 | Started reloader process [7208] using WatchFiles
+2026-01-15/19:19:22Z | [bold]INFO[/bold] | server.py:84 | Started server process [17300]
+2026-01-15/19:19:22Z | [bold]INFO[/bold] | on.py:48 | Waiting for application startup.
+2026-01-15/19:19:22Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15/19:19:22Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\p\python\fastapi_module\server\main.py:14: RuntimeWarning: coroutine 'init_db' was never awaited
+  init_db()
+
+2026-01-15/19:19:22Z | [bold]INFO[/bold] | on.py:62 | Application startup complete.
+2026-01-15/19:19:26Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:19:27Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:19:27Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:19:28Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:19:28Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:19:28Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:19:29Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:19:29Z | [bold]INFO[/bold] | server.py:264 | Shutting down
+2026-01-15/19:19:29Z | [bold]INFO[/bold] | on.py:67 | Waiting for application shutdown.
+2026-01-15/19:19:29Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\p\python\fastapi_module\server\main.py:16: RuntimeWarning: coroutine 'close_db' was never awaited
+  close_db()
+
+2026-01-15/19:19:29Z | [bold]INFO[/bold] | on.py:76 | Application shutdown complete.
+2026-01-15/19:19:29Z | [bold]INFO[/bold] | server.py:94 | Finished server process [17300]
+2026-01-15/19:19:30Z | [bold]INFO[/bold] | basereload.py:116 | Stopping reloader process [7208]
+2026-01-15/19:20:06Z | [bold]INFO[/bold] | config.py:322 | Will watch for changes in these directories: ['C:\\Users\\Usuario\\p\\python\\fastapi_module']
+2026-01-15/19:20:06Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:20:06Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15/19:20:06Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:20:06Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:20:06Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:20:06Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:20:06Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:20:06Z | [bold]INFO[/bold] | config.py:543 | Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-01-15/19:20:06Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15/19:20:06Z | [bold]INFO[/bold] | basereload.py:80 | Started reloader process [29624] using WatchFiles
+2026-01-15/19:20:07Z | [bold]INFO[/bold] | server.py:84 | Started server process [4328]
+2026-01-15/19:20:07Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:20:07Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15/19:20:07Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:20:07Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:20:07Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:20:07Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:20:07Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:20:07Z | [bold]INFO[/bold] | on.py:48 | Waiting for application startup.
+2026-01-15/19:20:07Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15/19:20:07Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\p\python\fastapi_module\server\main.py:14: RuntimeWarning: coroutine 'init_db' was never awaited
+  init_db()
+
+2026-01-15/19:20:07Z | [bold]INFO[/bold] | on.py:62 | Application startup complete.
+2026-01-15/19:20:07Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:20:07Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:20:08Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:20:08Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:20:08Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:20:09Z | [bold]INFO[/bold] | server.py:264 | Shutting down
+2026-01-15/19:20:09Z | [bold]INFO[/bold] | server.py:94 | Finished server process [4328]
+2026-01-15/19:20:09Z | [bold]ERROR[/bold] | on.py:134 | Traceback (most recent call last):
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 2046, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\uvicorn\server.py", line 70, in serve
+    with self.capture_signals():
+         ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\uvicorn\server.py", line 331, in capture_signals
+    signal.raise_signal(captured_signal)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 166, in _on_sigint
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-01-15/19:20:09Z | [bold]INFO[/bold] | basereload.py:116 | Stopping reloader process [29624]
+2026-01-15/19:24:02Z | [bold]INFO[/bold] | config.py:322 | Will watch for changes in these directories: ['C:\\Users\\Usuario\\p\\python\\fastapi_module']
+2026-01-15/19:24:02Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:24:02Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15/19:24:02Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:24:02Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:24:02Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:24:02Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:24:02Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:24:02Z | [bold]INFO[/bold] | config.py:543 | Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-01-15/19:24:02Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15/19:24:02Z | [bold]INFO[/bold] | basereload.py:80 | Started reloader process [20220] using WatchFiles
+2026-01-15/19:24:02Z | [bold]INFO[/bold] | server.py:84 | Started server process [2428]
+2026-01-15/19:24:02Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:24:02Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15/19:24:02Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:24:02Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:24:02Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:24:02Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:24:02Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:24:02Z | [bold]INFO[/bold] | on.py:48 | Waiting for application startup.
+2026-01-15/19:24:02Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15/19:24:02Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\p\python\fastapi_module\server\main.py:14: RuntimeWarning: coroutine 'init_db' was never awaited
+  init_db()
+
+2026-01-15/19:24:02Z | [bold]INFO[/bold] | on.py:62 | Application startup complete.
+2026-01-15/19:24:04Z | [bold]INFO[/bold] | server.py:264 | Shutting down
+2026-01-15/19:24:04Z | [bold]INFO[/bold] | server.py:94 | Finished server process [2428]
+2026-01-15/19:24:04Z | [bold]ERROR[/bold] | on.py:134 | Traceback (most recent call last):
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 2046, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\uvicorn\server.py", line 70, in serve
+    with self.capture_signals():
+         ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\uvicorn\server.py", line 331, in capture_signals
+    signal.raise_signal(captured_signal)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 166, in _on_sigint
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-01-15/19:24:04Z | [bold]INFO[/bold] | basereload.py:116 | Stopping reloader process [20220]
+2026-01-15/19:32:09Z | [bold]INFO[/bold] | config.py:322 | Will watch for changes in these directories: ['C:\\Users\\Usuario\\p\\python\\fastapi_module']
+2026-01-15/19:32:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:32:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15/19:32:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:32:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:32:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:32:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:32:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:32:09Z | [bold]INFO[/bold] | config.py:543 | Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-01-15/19:32:09Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15/19:32:09Z | [bold]INFO[/bold] | basereload.py:80 | Started reloader process [12928] using WatchFiles
+2026-01-15/19:32:10Z | [bold]INFO[/bold] | server.py:84 | Started server process [24728]
+2026-01-15/19:32:10Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:32:10Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15/19:32:10Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:32:10Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:32:10Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:32:10Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:32:10Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:32:10Z | [bold]INFO[/bold] | on.py:48 | Waiting for application startup.
+2026-01-15/19:32:10Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.logs.Log, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15/19:32:10Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\p\python\fastapi_module\server\main.py:14: RuntimeWarning: coroutine 'init_db' was never awaited
+  init_db()
+
+2026-01-15/19:32:10Z | [bold]INFO[/bold] | on.py:62 | Application startup complete.
+2026-01-15/19:32:14Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:32:14Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:32:15Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:32:15Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:32:16Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:32:16Z | [bold]DEBUG[/bold] | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/19:32:16Z | [bold]INFO[/bold] | server.py:264 | Shutting down
+2026-01-15/19:32:16Z | [bold]INFO[/bold] | on.py:67 | Waiting for application shutdown.
+2026-01-15/19:32:16Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\p\python\fastapi_module\server\main.py:16: RuntimeWarning: coroutine 'close_db' was never awaited
+  close_db()
+
+2026-01-15/19:32:16Z | [bold]INFO[/bold] | on.py:76 | Application shutdown complete.
+2026-01-15/19:32:16Z | [bold]INFO[/bold] | server.py:94 | Finished server process [24728]
+2026-01-15/19:32:17Z | [bold]INFO[/bold] | basereload.py:116 | Stopping reloader process [12928]
+2026-01-15/19:46:42Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:46:42Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15/19:46:42Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:46:42Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/19:46:42Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Scope
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:46:42Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseUser
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:46:42Z | [bold]WARNING[/bold] | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Log
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/19:48:02Z | [bold]DEBUG[/bold] | main.py:65 | Error al configurar id dinámico para Group: 'pydantic_core._pydantic_core.PydanticUndefinedType' object does not support item assignment
+2026-01-15/19:48:02Z | [bold]DEBUG[/bold] | main.py:65 | Error al configurar id dinámico para Scope: 'pydantic_core._pydantic_core.PydanticUndefinedType' object does not support item assignment
+2026-01-15/19:48:02Z | [bold]DEBUG[/bold] | main.py:65 | Error al configurar id dinámico para BaseUser: 'pydantic_core._pydantic_core.PydanticUndefinedType' object does not support item assignment
+2026-01-15/19:48:02Z | [bold]DEBUG[/bold] | main.py:65 | Error al configurar id dinámico para Log: 'pydantic_core._pydantic_core.PydanticUndefinedType' object does not support item assignment
+2026-01-15/20:49:46Z | INFO | config.py:322 | Will watch for changes in these directories: ['C:\\Users\\Usuario\\p\\python\\fastapi_module']
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:49Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:49:52Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-15/20:49:52Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-15/20:49:52Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-15/20:52:01Z | INFO | config.py:322 | Will watch for changes in these directories: ['C:\\Users\\Usuario\\p\\python\\fastapi_module']
+2026-01-15/20:52:20Z | INFO | config.py:322 | Will watch for changes in these directories: ['C:\\Users\\Usuario\\p\\python\\fastapi_module']
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:52:21Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-15/20:57:48Z | INFO | config.py:322 | Will watch for changes in these directories: ['C:\\Users\\Usuario\\p\\python\\fastapi_module']
+2026-01-15/20:57:48Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/20:57:48Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15/20:57:48Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/20:57:48Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/20:57:48Z | INFO | config.py:543 | Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-01-15/20:57:48Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.groups.Group, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15/20:57:48Z | INFO | basereload.py:80 | Started reloader process [4512] using WatchFiles
+2026-01-15/20:57:49Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/20:57:49Z | INFO | server.py:84 | Started server process [19668]
+2026-01-15/20:57:49Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/20:57:49Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15/20:57:49Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/20:57:49Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/20:57:49Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15/20:57:49Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.groups.Group, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15/20:57:49Z | INFO | main.py:14 | Lifespan startup: Initializing DB...
+2026-01-15/20:57:49Z | ERROR | on.py:121 | Traceback (most recent call last):
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\starlette\routing.py", line 694, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\fastapi\routing.py", line 203, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\p\python\fastapi_module\server\main.py", line 15, in lifespan
+    await init_db()
+  File "C:\Users\Usuario\p\python\fastapi_module\server\core\database\main.py", line 11, in init_db
+    async with engine.begin() as conn:
+               ~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\ext\asyncio\engine.py", line 1068, in begin
+    async with conn:
+               ^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\ext\asyncio\base.py", line 121, in __aenter__
+    return await self.start(is_ctxmanager=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\ext\asyncio\engine.py", line 275, in start
+    await greenlet_spawn(self.sync_engine.connect)
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 190, in greenlet_spawn
+    result = context.switch(*args, **kwargs)
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\engine\base.py", line 3285, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\engine\base.py", line 143, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\engine\base.py", line 3309, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\pool\base.py", line 447, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\pool\base.py", line 711, in checkout
+    rec = pool._do_get()
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\pool\impl.py", line 175, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\pool\base.py", line 388, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\pool\base.py", line 673, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\pool\base.py", line 899, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\pool\base.py", line 895, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\engine\create.py", line 661, in connect
+    return dialect.connect(*cargs, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\engine\default.py", line 630, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 955, in connect
+    await_only(creator_fn(*arg, **kw)),
+               ~~~~~~~~~~^^^^^^^^^^^^
+TypeError: connect() got an unexpected keyword argument 'sslmode'
+
+2026-01-15/20:57:49Z | ERROR | on.py:59 | Application startup failed. Exiting.
+2026-01-15/20:57:49Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/20:57:50Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/20:57:50Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/20:57:50Z | INFO | basereload.py:116 | Stopping reloader process [4512]
+2026-01-15/21:02:16Z | INFO | config.py:322 | Will watch for changes in these directories: ['C:\\Users\\Usuario\\p\\python\\fastapi_module']
+2026-01-15/21:02:16Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/21:02:16Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15/21:02:16Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/21:02:16Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/21:02:16Z | INFO | config.py:543 | Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-01-15/21:02:16Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.groups.Group, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15/21:02:16Z | INFO | basereload.py:80 | Started reloader process [23760] using WatchFiles
+2026-01-15/21:02:16Z | INFO | server.py:84 | Started server process [9468]
+2026-01-15/21:02:16Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class MixinBaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/21:02:16Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:548: UserWarning: Field name "id" in "BaseSQLModel" shadows an attribute in parent "MixinBaseSQLModel"
+  new_cls = super().__new__(cls, name, bases, dict_used, **config_kwargs)
+
+2026-01-15/21:02:16Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:283: SAWarning: Unmanaged access of declarative attribute id from non-mapped class Group
+  assigned_value = getattr(cls, ann_name, PydanticUndefined)
+
+2026-01-15/21:02:16Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\pydantic\_internal\_fields.py:313: SAWarning: Unmanaged access of declarative attribute id from non-mapped class BaseSQLModel
+  if hasattr(base, ann_name):
+
+2026-01-15/21:02:16Z | INFO | on.py:48 | Waiting for application startup.
+2026-01-15/21:02:16Z | WARNING | _py_warnings.py:230 | C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlmodel\main.py:650: SAWarning: This declarative base already contains a class with the same class name and module name as server.core.models.base.groups.Group, and will be replaced in the string-lookup table.
+  DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+
+2026-01-15/21:02:16Z | INFO | main.py:14 | Lifespan startup: Initializing DB...
+2026-01-15/21:02:16Z | ERROR | on.py:121 | Traceback (most recent call last):
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\starlette\routing.py", line 694, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\fastapi\routing.py", line 203, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\p\python\fastapi_module\server\main.py", line 15, in lifespan
+    await init_db()
+  File "C:\Users\Usuario\p\python\fastapi_module\server\core\database\main.py", line 11, in init_db
+    async with engine.begin() as conn:
+               ~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\ext\asyncio\engine.py", line 1068, in begin
+    async with conn:
+               ^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\ext\asyncio\base.py", line 121, in __aenter__
+    return await self.start(is_ctxmanager=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\ext\asyncio\engine.py", line 275, in start
+    await greenlet_spawn(self.sync_engine.connect)
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 190, in greenlet_spawn
+    result = context.switch(*args, **kwargs)
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\engine\base.py", line 3285, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\engine\base.py", line 143, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\engine\base.py", line 3309, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\pool\base.py", line 447, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\pool\base.py", line 711, in checkout
+    rec = pool._do_get()
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\pool\impl.py", line 175, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\pool\base.py", line 388, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\pool\base.py", line 673, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\pool\base.py", line 899, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\pool\base.py", line 895, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\engine\create.py", line 661, in connect
+    return dialect.connect(*cargs, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\engine\default.py", line 630, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-module-H27n2ohB-py3.14\Lib\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 955, in connect
+    await_only(creator_fn(*arg, **kw)),
+               ~~~~~~~~~~^^^^^^^^^^^^
+TypeError: connect() got an unexpected keyword argument 'sslmode'
+
+2026-01-15/21:02:16Z | ERROR | on.py:59 | Application startup failed. Exiting.
+2026-01-15/21:02:17Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/21:02:17Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/21:02:17Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/21:02:18Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/21:02:18Z | DEBUG | main.py:306 | 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\Usuario\\p\\python\\fastapi_module\\data\\server.log')}
+2026-01-15/21:02:18Z | INFO | basereload.py:116 | Stopping reloader process [23760]

@@ -1,0 +1,25 @@
+2026-01-15 08:30:00 [INFO] Starting Uvicorn server...
+2026-01-15 08:30:01 [INFO] Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-01-15 08:30:01 [INFO] Application startup complete.
+2026-01-15 08:30:05 [INFO] 127.0.0.1:52342 - "GET / HTTP/1.1" 200 OK
+2026-01-15 08:30:05 [INFO] 127.0.0.1:52342 - "GET /static/css/styles.css HTTP/1.1" 200 OK
+2026-01-15 08:30:10 [INFO] 127.0.0.1:52345 - "GET /docs HTTP/1.1" 200 OK
+2026-01-15 08:30:10 [INFO] 127.0.0.1:52345 - "GET /openapi.json HTTP/1.1" 200 OK
+2026-01-15 08:35:00 [WARNING] Slow query detected on /api/v1/users/ (took 1.2s)
+2026-01-15 08:40:00 [ERROR] ConnectionRefusedError: Connection refused by Redis at localhost:6379
+2026-01-15 08:40:01 [INFO] Retrying connection to Redis...
+2026-01-15 08:40:02 [INFO] Redis connection established.
+2026-01-15 08:45:12 [INFO] 192.168.1.100:43210 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+2026-01-15 08:45:13 [INFO] User 'admin' logged in successfully.
+2026-01-15 08:50:00 [DEBUG] Processing background task: send_welcome_email
+2026-01-15 08:50:01 [INFO] Email sent to user@example.com
+2026-01-15 09:00:00 [INFO] Scheduled backup started.
+2026-01-15 09:00:15 [INFO] Scheduled backup completed successfully.
+2026-01-15 09:15:30 [WARNING] High memory usage detected: 85%
+2026-01-15 09:30:00 [ERROR] Exception in worker process: DivisionByZeroError
+Traceback (most recent call last):
+  File "main.py", line 45, in worker
+    result = 10 / 0
+ZeroDivisionError: division by zero
+2026-01-15 09:30:01 [INFO] Worker process restarted.
+2026-01-15 10:00:00 [INFO] 127.0.0.1:54321 - "GET /admin/logs HTTP/1.1" 200 OK

@@ -8,22 +8,25 @@ from .scopes import Scope
 from .groups import Group
 from server.config import Settings
 from server.core.utils.logger import get_logger
+from server.core.models.base.decorators.register import register
 
 logger = get_logger(__name__)
 hasher = PasswordHasher(
     time_cost=16,
     memory_cost=65536,
     parallelism=2,
-    salt_length=16,
+    salt_len=16,
     hash_len=32,
 )
 
-class BaseUser(BaseSQLModel, table=False):
+@register(fields=["*"], tag="Users")
+class User(BaseSQLModel, table=True):
+    __tablename__ = "users"
     name: str = Field(max_length=30, nullable=False)
     email: EmailStr = Field(max_length=30, nullable=False, unique=True)
     password: str = Field(max_length=128, nullable=False)
 
-    avtive: bool = Field(default=True, nullable=False)
+    active: bool = Field(default=True, nullable=False)
 
     scopes: list["Scope"] = Relationship(
         link_model=Scope,

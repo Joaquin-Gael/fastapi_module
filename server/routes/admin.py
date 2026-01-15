@@ -7,6 +7,9 @@ from server.templates.utils import get_template
 router = APIRouter(prefix="/admin", tags=["Admin"])
 
 
+from server.core.cache import rc
+import json
+
 def get_mock_apps():
     """
     Simula la estructura de aplicaciones y modelos de Django.
@@ -40,9 +43,47 @@ def get_mock_apps():
         }
     ]
 
+def get_registered_apps():
+    """
+    Recupera la estructura de aplicaciones y modelos desde Redis,
+    poblada por el decorador @register.
+    """
+    apps_dict = {}
+    
+    # Obtenemos todos los modelos registrados
+    registry = rc.hgetall("admin:registry")
+    
+    for key, value in registry.items():
+        # key es 'app_label.model_name' (bytes)
+        # value es metadata json (bytes)
+        try:
+            metadata = json.loads(value)
+            app_label = metadata["app_label"]
+            
+            if app_label not in apps_dict:
+                apps_dict[app_label] = {
+                    "name": app_label.capitalize(), # Podríamos tener un mapa de nombres bonitos
+                    "app_label": app_label,
+                    "models": []
+                }
+            
+            apps_dict[app_label]["models"].append(metadata)
+        except Exception as e:
+            print(f"Error procesando registro admin {key}: {e}")
+            
+    # Convertir dict a lista y ordenar
+    apps_list = list(apps_dict.values())
+    apps_list.sort(key=lambda x: x["name"])
+    
+    # Si Redis está vacío, devolvemos los mocks por defecto para que no se vea vacío el demo
+    if not apps_list:
+        return get_mock_apps()
+        
+    return apps_list
+
 @router.get("/")
 async def admin_index(request: Request):
-    apps = get_mock_apps()
+    apps = get_registered_apps()
     return get_template(request, ["admin", "index.html"], {
         "apps": apps,
         "title": "Administración del Sitio",
@@ -58,15 +99,13 @@ async def admin_login(request: Request):
 
 @router.get("/logs")
 async def admin_logs(request: Request, q: str = ""):
-    log_file = Path("data/server.log")
+    log_file = Path(__file__).parent / "data/server.log"
     logs = []
     if log_file.exists():
         try:
-            # Leer las últimas 1000 líneas
             with open(log_file, "r", encoding="utf-8") as f:
                 all_logs = f.readlines()
                 
-            # Filtrar si hay query
             if q:
                 logs = [line for line in all_logs if q.lower() in line.lower()]
                 # Limitamos a 1000 resultados filtrados

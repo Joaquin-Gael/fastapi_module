@@ -6,8 +6,8 @@ logger = get_logger(__name__)
 
 make = Celery(
     "tasks",
-    broker=Settings().redis_url,
-    backend=Settings().redis_url,
+    broker=f"redis://:{Settings().redis_password}@{Settings().redis_host}:{Settings().redis_port}/0",
+    backend=f"redis://:{Settings().redis_password}@{Settings().redis_host}:{Settings().redis_port}/0",
     log=logger,
     namespace="tasks",
 )

@@ -1,4 +1,4 @@
-from .main import BaseSQLModel
+from server.core.models.base.main import BaseSQLModel
 from sqlmodel import Field
 from sqlalchemy.dialects.postgresql import JSON, ENUM
 from pydantic import field_validator
@@ -6,12 +6,12 @@ from server.core.models.enums.base import LogType, LogLevel, LogStatus, LogActio
 
 class Log(BaseSQLModel, table=True):
     __tablename__ = "logs"
+    __table_args__ = {"extend_existing": True}
     meta: dict = Field(
         sa_type=JSON,
         default_factory=dict,
         nullable=False,
         description="Metadata del log",
-        sa_type=ENUM(LogType, name="log_type"),
     )
     type: LogType = Field(
         default=LogType.INFO,

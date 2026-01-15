@@ -2,7 +2,7 @@ from sqlmodel import SQLModel
 from fastapi import Depends
 from typing import Annotated
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine, AsyncEngine
-from server.config import Settings
+from server.core.config import CoreSettings as Settings
 
 
 engine: AsyncEngine = create_async_engine(Settings().database_url, echo=Settings().debug)
@@ -20,3 +20,5 @@ async def close_db():
     await engine.dispose()
 
 SessionDep = Annotated[AsyncSession, Depends(get_session)]
+METADATA = SQLModel.metadata
+DATABASE_URL = Settings().database_url

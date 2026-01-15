@@ -18,11 +18,9 @@ from pathlib import Path
 
 from rich.logging import RichHandler
 
-from server.core.tasks.base.task_save_logs import rsave_log, save_log
-
 try:
     # Si existe configuración tipada, la usamos para leer DEBUG
-    from server.config import Settings  # type: ignore
+    from server.core.config import CoreSettings as Settings  # type: ignore
 except Exception:
     Settings = None  # fallback
 
@@ -120,7 +118,7 @@ class TZFormatter(logging.Formatter):
     def __init__(self, *, tz: timezone = timezone.utc) -> None:
         super().__init__(
             fmt="%(asctime)s | %(levelname)s | %(filename)s:%(lineno)d | %(message)s",
-            datefmt="%Y-%m-%dT%H:%M:%S",
+            datefmt="%Y-%m-%d/%H:%M:%S",
         )
         self.tz = tz
 
@@ -134,6 +132,9 @@ class TZFormatter(logging.Formatter):
 class RedisHandler(logging.Handler):
     def emit(self, record: logging.LogRecord):
         try:
+            # Importación diferida para evitar ciclos
+            from server.core.tasks.base.task_save_logs import rsave_log, save_log
+            
             log_data = {
                 "meta": getattr(record, "meta", {}),
                 "type": record.levelname,
@@ -190,7 +191,7 @@ def configure_logging() -> None:
 
     # Handler rico para consola con traceback legible
     console_handler = RichHandler(
-        rich_traceback=True,
+        rich_tracebacks=True,
         show_time=False,  # lo manejamos con nuestro Formatter
         show_level=True,
         show_path=False,  # usamos filename:lineno del Formatter
