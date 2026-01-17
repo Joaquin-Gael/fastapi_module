@@ -39,6 +39,7 @@ def register(fields: list = ["*"], tag: str = "", actions: list = ["read", "writ
             if rc.hget("admin:registry", registry_key):
                 return model
             rc.hset("admin:registry", registry_key, json.dumps(metadata))
+            rc.expire("admin:registry", 30)
             
             _REGISTERED_MODELS.add(model)
             

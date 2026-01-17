@@ -1,7 +1,7 @@
 from sqlmodel import SQLModel, Field, select
 from sqlalchemy.dialects.postgresql import UUID as PSUUID
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy.orm import declared_attr, mapped_column, Mapped
+from sqlalchemy.orm import declared_attr, mapped_column
 from sqlalchemy import event
 from uuid import UUID, uuid6
 from typing import Any
@@ -13,27 +13,22 @@ from server.core.utils.logger import get_logger
 logger = get_logger(__name__)
 
 class MixinBaseSQLModel:
-    @declared_attr
+    @declared_attr.cascading
     def id(cls):
         try:
             id_name = [ch.lower() if idx == 0 else f"_{ch.lower()}" for idx, ch in enumerate(str(cls.__name__)) if ch.isupper() and idx > 0]
             id_name_str = "".join(id_name)
             col_name = f"{id_name_str}_id" if id_name_str else "id"
             
-            return mapped_column(PSUUID, default_factory=uuid6, primary_key=True, name=col_name)
+            return mapped_column(PSUUID, primary_key=True, name=col_name)
         except Exception as e:
             print(f"Error al generar id para {cls.__name__}: {e}")
-            return mapped_column(PSUUID, default_factory=uuid6, primary_key=True, name="id")
+            return mapped_column(PSUUID, primary_key=True, name="id")
         
 
 
 class BaseSQLModel(SQLModel, MixinBaseSQLModel, table=False):
-    id: UUID = Field(
-         sa_type=PSUUID,
-         default_factory=uuid6,
-         primary_key=True,
-         sa_column_kwargs={"name": "id"}
-    )
+
     created_at: datetime = Field(
         default_factory=lambda: datetime.now(timezone.utc),
         sa_column_kwargs={"name": "created_at"}

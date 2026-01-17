@@ -1,8 +1,8 @@
 from celery import Celery
 from server.config import Settings
-from server.core.utils.logger import get_logger
+from server.core.utils.logger import _get_celery_logger
 
-logger = get_logger(__name__)
+logger = _get_celery_logger("celery.tasks")
 
 make = Celery(
     "tasks",

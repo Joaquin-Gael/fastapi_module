@@ -132,7 +132,6 @@ class TZFormatter(logging.Formatter):
 class RedisHandler(logging.Handler):
     def emit(self, record: logging.LogRecord):
         try:
-            # Importación diferida para evitar ciclos
             from server.core.tasks.base.task_save_logs import rsave_log, save_log
             
             log_data = {
@@ -172,6 +171,26 @@ def _get_debug() -> bool:
     return val in ("1", "true", "yes", "on")
 
 
+def _get_celery_logger(name: str | None = None) -> logging.Logger:
+    logger_name = name or "celery"
+    logger = logging.getLogger(logger_name)
+    debug = _get_debug()
+    level = logging.DEBUG if debug else logging.INFO
+    logger.setLevel(level)
+    console_handler = RichHandler(
+        rich_tracebacks=True,
+        show_time=False,
+        show_level=True,
+        show_path=False,
+    )
+    console_handler.setLevel(level)
+    console_handler.setFormatter(TZFormatter(tz=timezone.utc))
+    logger.handlers.clear()
+    logger.addHandler(console_handler)
+    logger.propagate = False
+    return logger
+
+
 def configure_logging() -> None:
     """
     Configura logging global si aún no está configurado:
@@ -201,18 +220,12 @@ def configure_logging() -> None:
     console_handler.addFilter(SensitiveDataFilter(debug=debug))
 
     # Handler para archivo
-    log_file = Path("data/server.log")
+    log_file = Settings().log_file or Path("data/server.log")
     log_file.parent.mkdir(parents=True, exist_ok=True)
     file_handler = logging.FileHandler(log_file, encoding="utf-8")
     file_handler.setLevel(level)
     file_handler.setFormatter(TZFormatter(tz=timezone.utc))
     file_handler.addFilter(SensitiveDataFilter(debug=debug))
-
-    # Handler para Redis
-    redis_handler = RedisHandler()
-    redis_handler.setLevel(level)
-    redis_handler.setFormatter(TZFormatter(tz=timezone.utc))
-    redis_handler.addFilter(SensitiveDataFilter(debug=debug))
 
 
 
@@ -220,7 +233,6 @@ def configure_logging() -> None:
     logging.root.handlers.clear()
     logging.root.addHandler(console_handler)
     logging.root.addHandler(file_handler)
-    logging.root.addHandler(redis_handler)
 
     _configured = True
 
@@ -231,5 +243,18 @@ def get_logger(name: str | None = None) -> logging.Logger:
     - name: nombre del logger (por defecto del módulo que lo llama).
     """
     configure_logging()
-    return logging.getLogger(name or __name__)
+
+    debug = _get_debug()
+
+    level = logging.DEBUG if debug else logging.INFO
+
+    # Handler para Redis
+    redis_handler = RedisHandler()
+    redis_handler.setLevel(level)
+    redis_handler.setFormatter(TZFormatter(tz=timezone.utc))
+    redis_handler.addFilter(SensitiveDataFilter(debug=debug))
+
+    logger = logging.getLogger(name or __name__)
+    logger.addHandler(redis_handler)
+    return logger
 

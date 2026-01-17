@@ -10,6 +10,7 @@ class CoreSettings(BaseSettings):
     env: str = "development"
     debug: bool = False
     log_level: str = "info"
+    log_file: Optional[Path] = Path("data/server.log")
 
     database_url: str = "sqlite+aiosqlite:///./data/app.db"
     db_pool_size: int = 5

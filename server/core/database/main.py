@@ -3,9 +3,22 @@ from fastapi import Depends
 from typing import Annotated
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine, AsyncEngine
 from server.core.config import CoreSettings as Settings
+from server.core.utils.logger import get_logger
 
+logger = get_logger(__name__)
 
-engine: AsyncEngine = create_async_engine(Settings().database_url, echo=Settings().debug)
+engine: AsyncEngine = create_async_engine(
+    Settings().database_url.split("?")[0], 
+    echo=False, #Settings().debug,
+    pool_size=10,
+    max_overflow=20,
+    connect_args={
+        "ssl":"require",
+        "server_settings":{
+            "channel_binding":"require"
+        }
+    }
+)
 
 async def init_db():
     async with engine.begin() as conn:

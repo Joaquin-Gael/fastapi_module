@@ -22,6 +22,7 @@ hasher = PasswordHasher(
 @register(fields=["*"], tag="Users")
 class User(BaseSQLModel, table=True):
     __tablename__ = "users"
+    __table_args__ = {"extend_existing": True}
     name: str = Field(max_length=30, nullable=False)
     email: EmailStr = Field(max_length=30, nullable=False, unique=True)
     password: str = Field(max_length=128, nullable=False)

@@ -99,7 +99,7 @@ async def admin_login(request: Request):
 
 @router.get("/logs")
 async def admin_logs(request: Request, q: str = ""):
-    log_file = Path(__file__).parent / "data/server.log"
+    log_file = Path(Settings().log_file)
     logs = []
     if log_file.exists():
         try:
