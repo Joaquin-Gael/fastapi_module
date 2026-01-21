@@ -1,29 +1,15 @@
-# Este módulo define un logger centralizado con:
-# - Formato con hora exacta y archivo/linea de origen
-# - Redacción de datos sensibles cuando DEBUG está desactivado
-#
-# Úsalo así:
-#   from server.core.utils.logger import get_logger
-#   log = get_logger(__name__)
-#   log.info("mensaje")
-#
 from __future__ import annotations
 
 import logging
 import os
 import re
-from typing import Any, Dict
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Any, Dict
 
 from rich.logging import RichHandler
 
-try:
-    # Si existe configuración tipada, la usamos para leer DEBUG
-    from server.core.config import CoreSettings as Settings  # type: ignore
-except Exception:
-    Settings = None  # fallback
-
+from server.core.config import CoreSettings as Settings
 
 # Claves que consideramos sensibles para redacción.
 _SENSITIVE_KEYS = (
@@ -133,24 +119,25 @@ class RedisHandler(logging.Handler):
     def emit(self, record: logging.LogRecord):
         try:
             from server.core.tasks.base.task_save_logs import rsave_log, save_log
-            
+
             log_data = {
-                "meta": getattr(record, "meta", {}),
+                "meta": record.get("meta", {}),
                 "type": record.levelname,
-                "level": getattr(record, "loglevel", None),
-                "status": getattr(record, "status", None),
-                "action": getattr(record, "action", None),
-                "assistant_message": getattr(record, "assistant_message", "N/A"),
-                "source": getattr(record, "source", "N/A"),
-                "final_message": record.getMessage(),
+                "level": record.get("loglevel", None),
+                "status": record.get("status", None),
+                "action": record.get("action", None),
+                "assistant_message": record.get("assistant_message", "N/A"),
+                "source": record.get("source", "N/A"),
+                "final_message": self.format(record.message),
             }
-            
+
             rsave_log.delay(log_data)
             save_log.delay(log_data)
 
         except Exception as e:
             print(f"Error al guardar log en redis: {e}")
             self.handleError(record)
+
 
 _configured = False
 
@@ -227,8 +214,6 @@ def configure_logging() -> None:
     file_handler.setFormatter(TZFormatter(tz=timezone.utc))
     file_handler.addFilter(SensitiveDataFilter(debug=debug))
 
-
-
     # Limpia handlers previos para evitar duplicados
     logging.root.handlers.clear()
     logging.root.addHandler(console_handler)
@@ -257,4 +242,3 @@ def get_logger(name: str | None = None) -> logging.Logger:
     logger = logging.getLogger(name or __name__)
     logger.addHandler(redis_handler)
     return logger
-

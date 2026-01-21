@@ -1,13 +1,15 @@
-from fastapi import FastAPI, Request
-from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
-from server.routes import router
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
 from server.config import Settings
+from server.core.database import close_db, init_db
 from server.core.utils.logger import get_logger
-from server.core.database import init_db, close_db
+from server.routes import router
 
 logger = get_logger(__name__)
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -18,6 +20,7 @@ async def lifespan(app: FastAPI):
     logger.info("Lifespan shutdown: Closing DB...")
     await close_db()
     logger.info("Lifespan shutdown: DB Closed.")
+
 
 app = FastAPI(
     lifespan=lifespan,

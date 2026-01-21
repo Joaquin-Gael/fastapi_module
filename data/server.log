@@ -1,0 +1,529 @@
+2026-01-21/04:22:56Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:22:59Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:22:54Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:23:06Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:27:56Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:27:59Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:27:55Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:28:05Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:28:15Z | DEBUG | admin.py:18 | Models list: {'-7404532439837701822-users', '{"name": "User", "object_name": "User", "model_module": "server.core.models.base.user", "table_name": "users", "admin_url": "/admin/users/", "tag": "Users", "actions": ["read", "write", "delete", "update", "export"], "fields": ["created_at", "updated_at", "name", "email", "password", "active"]}'}
+2026-01-21/04:34:40Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:34:43Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:34:39Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:34:50Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:35:13Z | DEBUG | admin.py:26 | Models list: {'7723987367414274283-users', '{"name": "User", "object_name": "User", "model_module": "server.core.models.base.user", "table_name": "users", "admin_url": "/admin/users/", "tag": "Users", "actions": ["read", "write", "delete", "update", "export"], "fields": ["created_at", "updated_at", "name", "email", "password", "active"]}'}
+2026-01-21/04:35:57Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/04:35:58Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/04:36:22Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:36:25Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:36:21Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:36:31Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:36:44Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/04:36:45Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/04:36:47Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:36:50Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:36:46Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:36:56Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:37:32Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/04:37:33Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/04:37:36Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:37:39Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:37:34Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:37:45Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:37:46Z | DEBUG | admin.py:19 | Models list: {'4824814107341566662-users', '8749654166617421793-users', '-7673075331691415778-users', '7723987367414274283-users', '{"name": "User", "object_name": "User", "model_module": "server.core.models.base.user", "table_name": "users", "admin_url": "/admin/users/", "tag": "Users", "actions": ["read", "write", "delete", "update", "export"], "fields": ["created_at", "updated_at", "name", "email", "password", "active"]}'}
+2026-01-21/04:39:53Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/04:39:54Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/04:39:57Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:40:00Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:39:55Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:40:06Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:40:06Z | DEBUG | admin.py:19 | Models list: <class 'set'>
+2026-01-21/04:40:34Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/04:40:34Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/04:40:37Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:40:40Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:40:36Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:40:47Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:40:50Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:40:53Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:40:49Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:40:59Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:40:59Z | DEBUG | admin.py:19 | Models list: <class 'set'>
+2026-01-21/04:41:33Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/04:41:34Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/04:41:36Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:41:39Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:41:35Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:41:45Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:41:48Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:41:50Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:41:46Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:41:56Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:41:57Z | DEBUG | admin.py:19 | Models list: <class 'set'>
+2026-01-21/04:42:49Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/04:42:49Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/04:42:52Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:42:55Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:42:51Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:43:01Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:43:16Z | DEBUG | admin.py:20 | Models ['-2296064902841314303-users', '{"name": "User", "object_name": "User", "model_module": "server.core.models.base.user", "table_name": "users", "admin_url": "/admin/users/", "tag": "Users", "actions": ["read", "write", "delete", "update", "export"], "fields": ["created_at", "updated_at", "name", "email", "password", "active"]}', '-2354747913731594543-users', '8973535728383159277-users', '-3488416895728872142-users', '6750665263653115513-users', '3420165188669883597-users']
+2026-01-21/04:46:24Z | DEBUG | admin.py:20 | Models []
+2026-01-21/04:46:40Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/04:46:41Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/04:46:43Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:46:46Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:46:42Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:46:52Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:47:30Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/04:47:31Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/04:47:33Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:47:36Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:47:32Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:47:42Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:50:06Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/04:50:07Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/04:50:09Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:50:12Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:50:08Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:50:18Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:50:58Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/04:50:59Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/04:51:01Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:51:04Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:51:00Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:51:10Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:51:13Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/04:51:14Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/04:51:16Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:51:19Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:51:15Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:51:25Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:51:50Z | DEBUG | admin.py:20 | Models ['-8297856033068860985-users', '-3241193372115012235-users', '{"name": "User", "object_name": "User", "model_module": "server.core.models.base.user", "table_name": "users", "admin_url": "/admin/users/", "tag": "Users", "actions": ["read", "write", "delete", "update", "export"], "fields": ["created_at", "updated_at", "name", "email", "password", "active"]}']
+2026-01-21/04:52:37Z | DEBUG | admin.py:20 | Models ['{"name": "User", "object_name": "User", "model_module": "server.core.models.base.user", "table_name": "users", "admin_url": "/admin/users/", "tag": "Users", "actions": ["read", "write", "delete", "update", "export"], "fields": ["created_at", "updated_at", "name", "email", "password", "active"]}']
+2026-01-21/04:54:02Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/04:54:03Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/04:54:05Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:54:08Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:54:04Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:54:14Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:54:17Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/04:54:19Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/04:54:15Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/04:54:25Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/04:54:26Z | DEBUG | admin.py:20 | Models ['{"name": "User", "object_name": "User", "model_module": "server.core.models.base.user", "table_name": "users", "admin_url": "/admin/users/", "tag": "Users", "actions": ["read", "write", "delete", "update", "export"], "fields": ["created_at", "updated_at", "name", "email", "password", "active"]}', '-9081179587296090030-users', '-8006933385176924057-users']
+2026-01-21/04:54:26Z | ERROR | admin.py:25 | Failed to parse model -9081179587296090030-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/04:54:26Z | ERROR | admin.py:25 | Failed to parse model -8006933385176924057-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:28:07Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/06:28:08Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/06:28:23Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/06:28:26Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/06:28:22Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:28:34Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:28:39Z | DEBUG | admin.py:20 | Models ['{"name": "User", "object_name": "User", "model_module": "server.core.models.base.user", "table_name": "users", "admin_url": "/admin/users/", "tag": "Users", "actions": ["read", "write", "delete", "update", "export"], "fields": ["created_at", "updated_at", "name", "email", "password", "active"]}', '-9081179587296090030-users', '-8006933385176924057-users', '-1879441673323475324-users']
+2026-01-21/06:28:40Z | ERROR | admin.py:25 | Failed to parse model -9081179587296090030-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:28:40Z | ERROR | admin.py:25 | Failed to parse model -8006933385176924057-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:28:40Z | ERROR | admin.py:25 | Failed to parse model -1879441673323475324-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:30:22Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/06:30:25Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/06:30:21Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:30:31Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:30:45Z | DEBUG | admin.py:20 | Models ['-8006933385176924057-users', '-9081179587296090030-users', '2055859677229015653-users', '{"name": "User", "object_name": "User", "model_module": "server.core.models.base.user", "table_name": "users", "admin_url": "/admin/users/", "tag": "Users", "actions": ["read", "write", "delete", "update", "export"], "fields": ["created_at", "updated_at", "name", "email", "password", "active"]}', '-1879441673323475324-users']
+2026-01-21/06:30:45Z | ERROR | admin.py:25 | Failed to parse model -8006933385176924057-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:30:45Z | ERROR | admin.py:25 | Failed to parse model -9081179587296090030-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:30:46Z | ERROR | admin.py:25 | Failed to parse model 2055859677229015653-users: Extra data: line 1 column 20 (char 19)
+2026-01-21/06:30:46Z | ERROR | admin.py:25 | Failed to parse model -1879441673323475324-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:32:16Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/06:32:19Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/06:32:15Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:32:24Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:32:33Z | DEBUG | admin.py:20 | Models ['{"name": "User", "object_name": "User", "model_module": "server.core.models.base.user", "table_name": "users", "admin_url": "/admin/users/", "tag": "Users", "actions": ["read", "write", "delete", "update", "export"], "fields": ["created_at", "updated_at", "name", "email", "password", "active"]}', '2055859677229015653-users', '-1879441673323475324-users', '-8006933385176924057-users', '-9081179587296090030-users', '-3671567349533997118-users']
+2026-01-21/06:32:33Z | ERROR | admin.py:25 | Failed to parse model 2055859677229015653-users: Extra data: line 1 column 20 (char 19)
+2026-01-21/06:32:34Z | ERROR | admin.py:25 | Failed to parse model -1879441673323475324-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:32:34Z | ERROR | admin.py:25 | Failed to parse model -8006933385176924057-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:32:34Z | ERROR | admin.py:25 | Failed to parse model -9081179587296090030-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:32:35Z | ERROR | admin.py:25 | Failed to parse model -3671567349533997118-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:33:04Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/06:33:04Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/06:33:07Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/06:33:10Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/06:33:06Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:33:15Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:33:23Z | DEBUG | admin.py:20 | Models ['2055859677229015653-users', '-3671567349533997118-users', '{"name": "User", "object_name": "User", "model_module": "server.core.models.base.user", "table_name": "users", "admin_url": "/admin/users/", "tag": "Users", "actions": ["read", "write", "delete", "update", "export"], "fields": ["created_at", "updated_at", "name", "email", "password", "active"]}', '-3271699753801861370-users', '-1879441673323475324-users', '-8006933385176924057-users', '-9081179587296090030-users']
+2026-01-21/06:33:23Z | ERROR | admin.py:25 | Failed to parse model 2055859677229015653-users: Extra data: line 1 column 20 (char 19)
+2026-01-21/06:33:24Z | ERROR | admin.py:25 | Failed to parse model -3271699753801861370-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:33:24Z | ERROR | admin.py:25 | Failed to parse model -8006933385176924057-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:33:36Z | DEBUG | admin.py:20 | Models ['2055859677229015653-users', '-3671567349533997118-users', '{"name": "User", "object_name": "User", "model_module": "server.core.models.base.user", "table_name": "users", "admin_url": "/admin/users/", "tag": "Users", "actions": ["read", "write", "delete", "update", "export"], "fields": ["created_at", "updated_at", "name", "email", "password", "active"]}', '-3271699753801861370-users', '-1879441673323475324-users', '-8006933385176924057-users', '-9081179587296090030-users']
+2026-01-21/06:33:37Z | ERROR | admin.py:25 | Failed to parse model 2055859677229015653-users: Extra data: line 1 column 20 (char 19)
+2026-01-21/06:33:37Z | ERROR | admin.py:25 | Failed to parse model -3271699753801861370-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:33:37Z | ERROR | admin.py:25 | Failed to parse model -8006933385176924057-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:35:01Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/06:35:02Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/06:35:05Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/06:35:08Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/06:35:03Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:35:14Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:35:14Z | DEBUG | admin.py:20 | Models ['-8006933385176924057-users', '-3671567349533997118-users', '-9081179587296090030-users', '2055859677229015653-users', '2993097372603750777-users', '-1879441673323475324-users', '-3271699753801861370-users', '{"name": "User", "object_name": "User", "model_module": "server.core.models.base.user", "table_name": "users", "admin_url": "/admin/users/", "tag": "Users", "actions": ["read", "write", "delete", "update", "export"], "fields": ["created_at", "updated_at", "name", "email", "password", "active"]}']
+2026-01-21/06:35:15Z | ERROR | admin.py:26 | Failed to parse model -8006933385176924057-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:35:15Z | ERROR | admin.py:26 | Failed to parse model -9081179587296090030-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:35:15Z | ERROR | admin.py:26 | Failed to parse model 2993097372603750777-users: Extra data: line 1 column 20 (char 19)
+2026-01-21/06:35:16Z | ERROR | admin.py:26 | Failed to parse model -3271699753801861370-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:35:59Z | DEBUG | admin.py:20 | Models ['-8006933385176924057-users', '-3671567349533997118-users', '-9081179587296090030-users', '2055859677229015653-users', '2993097372603750777-users', '-1879441673323475324-users', '-3271699753801861370-users', '{"name": "User", "object_name": "User", "model_module": "server.core.models.base.user", "table_name": "users", "admin_url": "/admin/users/", "tag": "Users", "actions": ["read", "write", "delete", "update", "export"], "fields": ["created_at", "updated_at", "name", "email", "password", "active"]}']
+2026-01-21/06:36:00Z | ERROR | admin.py:26 | Failed to parse model -8006933385176924057-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:36:00Z | ERROR | admin.py:26 | Failed to parse model -9081179587296090030-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:36:00Z | ERROR | admin.py:26 | Failed to parse model 2993097372603750777-users: Extra data: line 1 column 20 (char 19)
+2026-01-21/06:36:01Z | ERROR | admin.py:26 | Failed to parse model -3271699753801861370-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:36:44Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/06:36:44Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/06:36:47Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/06:36:50Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/06:36:46Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:36:56Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:37:01Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/06:37:04Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/06:37:00Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:37:10Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:37:49Z | DEBUG | admin.py:20 | Models {[model for model in models_list]}
+2026-01-21/06:37:49Z | ERROR | admin.py:26 | Failed to parse model -3271699753801861370-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:37:50Z | ERROR | admin.py:26 | Failed to parse model -9081179587296090030-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:37:50Z | ERROR | admin.py:26 | Failed to parse model -3671567349533997118-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:37:50Z | ERROR | admin.py:26 | Failed to parse model 2055859677229015653-users: Extra data: line 1 column 20 (char 19)
+2026-01-21/06:37:51Z | ERROR | admin.py:26 | Failed to parse model -8006933385176924057-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:38:16Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/06:38:16Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/06:38:19Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/06:38:22Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/06:38:18Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:38:27Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:38:30Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/06:38:33Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/06:38:29Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:38:38Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:38:39Z | DEBUG | admin.py:20 | Models ['2055859677229015653-users', '-1879441673323475324-users', '-829155540329191638-users', '-9081179587296090030-users', '-3671567349533997118-users', '-7735104080313075315-users', '-3271699753801861370-users', '7537256769089299065-users', '-8006933385176924057-users', '{"name": "User", "object_name": "User", "model_module": "server.core.models.base.user", "table_name": "users", "admin_url": "/admin/users/", "tag": "Users", "actions": ["read", "write", "delete", "update", "export"], "fields": ["created_at", "updated_at", "name", "email", "password", "active"]}', '2993097372603750777-users', '-93977306462768450-users']
+2026-01-21/06:38:39Z | DEBUG | admin.py:23 | Model Type: <class 'str'>
+2026-01-21/06:38:40Z | ERROR | admin.py:26 | Failed to parse model 2055859677229015653-users: Extra data: line 1 column 20 (char 19)
+2026-01-21/06:38:40Z | DEBUG | admin.py:23 | Model Type: <class 'str'>
+2026-01-21/06:38:40Z | ERROR | admin.py:26 | Failed to parse model -829155540329191638-users: Extra data: line 1 column 20 (char 19)
+2026-01-21/06:38:41Z | DEBUG | admin.py:23 | Model Type: <class 'str'>
+2026-01-21/06:38:41Z | ERROR | admin.py:26 | Failed to parse model -3671567349533997118-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:38:41Z | DEBUG | admin.py:23 | Model Type: <class 'str'>
+2026-01-21/06:38:42Z | ERROR | admin.py:26 | Failed to parse model -3271699753801861370-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:38:42Z | DEBUG | admin.py:23 | Model Type: <class 'str'>
+2026-01-21/06:38:42Z | ERROR | admin.py:26 | Failed to parse model -8006933385176924057-users: Extra data: line 1 column 21 (char 20)
+2026-01-21/06:38:43Z | DEBUG | admin.py:23 | Model Type: <class 'str'>
+2026-01-21/06:38:43Z | ERROR | admin.py:26 | Failed to parse model 2993097372603750777-users: Extra data: line 1 column 20 (char 19)
+2026-01-21/06:39:25Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/06:39:26Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/06:39:29Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/06:39:31Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/06:39:27Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:39:37Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:39:40Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/06:39:42Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/06:39:38Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:39:48Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:40:01Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/06:40:02Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/06:40:03Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:40:09Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/06:40:11Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/06:40:07Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:40:13Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/06:40:16Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/06:40:12Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:40:22Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:40:51Z | DEBUG | admin.py:20 | Models []
+2026-01-21/06:40:56Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/06:40:57Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/06:41:02Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/06:41:05Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/06:41:01Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:41:11Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:41:17Z | DEBUG | admin.py:20 | Models ['User-users', '{"name": "User", "object_name": "User", "model_module": "server.core.models.base.user", "table_name": "users", "admin_url": "/admin/users/", "tag": "Users", "actions": ["read", "write", "delete", "update", "export"], "fields": ["created_at", "updated_at", "name", "email", "password", "active"]}']
+2026-01-21/06:41:17Z | DEBUG | admin.py:23 | Model Type: <class 'str'>
+2026-01-21/06:41:18Z | ERROR | admin.py:26 | Failed to parse model User-users: Expecting value: line 1 column 1 (char 0)
+2026-01-21/06:43:24Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/06:43:25Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/06:43:27Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/06:43:30Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/06:43:26Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:43:35Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:43:36Z | DEBUG | admin.py:20 | Models ['{"name": "User", "object_name": "User", "model_module": "server.core.models.base.user", "table_name": "users", "admin_url": "/admin/users/", "tag": "Users", "actions": ["read", "write", "delete", "update", "export"], "fields": ["created_at", "updated_at", "name", "email", "password", "active"]}', 'User-users']
+2026-01-21/06:43:36Z | DEBUG | admin.py:28 | Model Type: <class 'dict'>
+2026-01-21/06:43:36Z | DEBUG | admin.py:29 | Model: {'name': 'User', 'object_name': 'User', 'model_module': 'server.core.models.base.user', 'table_name': 'users', 'admin_url': '/admin/users/', 'tag': 'Users', 'actions': ['read', 'write', 'delete', 'update', 'export'], 'fields': ['created_at', 'updated_at', 'name', 'email', 'password', 'active']}
+2026-01-21/06:43:37Z | ERROR | admin.py:25 | Failed to parse model User-users: Expecting value: line 1 column 1 (char 0)
+2026-01-21/06:43:52Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/06:43:53Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/06:43:55Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/06:43:58Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/06:43:54Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:44:03Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:44:07Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/06:44:08Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/06:44:10Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-01-21/06:44:13Z | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-01-21/06:44:09Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:44:19Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:47:51Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/06:47:52Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/06:57:08Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:57:16Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:58:14Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/06:58:14Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/06:58:15Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:58:22Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:58:55Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/06:58:55Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/06:58:56Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:59:02Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/06:59:07Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/06:59:07Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/06:59:08Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/06:59:15Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/07:03:35Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/07:03:42Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/07:04:01Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/07:04:02Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/07:04:03Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/07:04:09Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/07:04:10Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/07:04:17Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/07:04:45Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/07:04:45Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/07:04:46Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/07:04:55Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/07:04:59Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/07:04:59Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/07:05:00Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/07:05:07Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/07:05:11Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/07:05:11Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/07:05:12Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/07:05:20Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/07:06:24Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/07:06:24Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/07:06:56Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/07:07:03Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/07:07:13Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/07:07:13Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/07:07:14Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/07:07:20Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
+2026-01-21/07:08:44Z | INFO | main.py:20 | Lifespan shutdown: Closing DB...
+2026-01-21/07:08:44Z | INFO | main.py:22 | Lifespan shutdown: DB Closed.
+2026-01-21/07:08:45Z | INFO | main.py:16 | Lifespan startup: Initializing DB...
+2026-01-21/07:08:52Z | INFO | main.py:18 | Lifespan startup: DB Initialized.
