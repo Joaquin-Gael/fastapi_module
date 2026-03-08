@@ -5,6 +5,7 @@ class LogType(Enum):
     ERROR = "error"
     WARNING = "warning"
     DEBUG = "debug"
+    NOT_TYPE = "not_type"
 
 class LogLevel(Enum):
     CRITICAL = "critical"
@@ -12,6 +13,7 @@ class LogLevel(Enum):
     MEDIUM = "medium"
     LOW = "low"
     VERY_LOW = "very_low"
+    NOT_LEVEL = "not_level"
 
 class LogStatus(Enum):
     SUCCESS = "success"

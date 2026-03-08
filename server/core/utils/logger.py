@@ -121,14 +121,14 @@ class RedisHandler(logging.Handler):
             from server.core.tasks.base.task_save_logs import rsave_log, save_log
 
             log_data = {
-                "meta": record.get("meta", {}),
+                "data": getattr(record, "meta", {}),
                 "type": record.levelname,
-                "level": record.get("loglevel", None),
-                "status": record.get("status", None),
-                "action": record.get("action", None),
-                "assistant_message": record.get("assistant_message", "N/A"),
-                "source": record.get("source", "N/A"),
-                "final_message": self.format(record.message),
+                "level": getattr(record, "loglevel", None),
+                "status": getattr(record, "status", None),
+                "action": getattr(record, "action", None),
+                "assistant_message": getattr(record, "assistant_message", "N/A"),
+                "source": getattr(record, "source", "N/A"),
+                "final_message": self.format(record),
             }
 
             rsave_log.delay(log_data)

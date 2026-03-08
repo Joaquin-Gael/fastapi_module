@@ -1,7 +1,9 @@
+from pathlib import Path
 from typing import List, Optional
+
 from pydantic import EmailStr, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
-from pathlib import Path
+
 from server.core.config import CoreSettings
 
 
@@ -18,10 +20,12 @@ class Settings(CoreSettings):
     api_version: str = "v1"
     docs_url: str = "/docs"
     redoc_url: str = "/redoc"
+    scalar_url: str = "/scalar"
     openapi_url: str = "/openapi.json"
 
     server_host: str = "0.0.0.0"
     server_port: int = 8000
+    server_domain: str = "http://localhost:8000"
 
     cors_allowed_origins: List[str] = ["*"]
     cors_allowed_headers: List[str] = ["*"]
@@ -47,7 +51,12 @@ class Settings(CoreSettings):
     def media_dir_full(self):
         return Path(__file__).parent / self.media_dir
 
-    @field_validator("cors_allowed_origins", "cors_allowed_headers", "cors_allowed_methods", mode="before")
+    @field_validator(
+        "cors_allowed_origins",
+        "cors_allowed_headers",
+        "cors_allowed_methods",
+        mode="before",
+    )
     @classmethod
     def _split_csv(cls, v):
         if isinstance(v, str):

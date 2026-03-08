@@ -15,18 +15,16 @@ router = APIRouter(prefix="/admin", tags=["Admin"])
 
 @router.get("/")
 async def models(request: Request) -> list:
-    models_list = rc.smembers("admin:registry")
-
+    models_list = await rc.smembers("admin:registry")
     models_list = list(models_list)
-    logger.debug(f"Models {[model for model in models_list]}")
     for idx, model in enumerate(models_list):
         try:
-            model = json.loads(model) if not isinstance(model, dict) else model
+            model = json.loads(model)
+            del model["model_module"]
+            models_list[idx] = model
         except json.decoder.JSONDecodeError as e:
             logger.error("Failed to parse model %s: %s", model, e)
             del models_list[idx]
-            continue
-        models_list[idx] = model
     return models_list
 
 
