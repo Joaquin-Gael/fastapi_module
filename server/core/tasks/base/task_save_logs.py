@@ -9,7 +9,8 @@ from server.core.database import get_session
 from server.core.models.base import Log
 from server.core.models.enums.base import LogAction, LogLevel, LogStatus, LogType
 from server.core.utils.logger import _get_celery_logger
-
+from ...database.main import engine
+from sqlalchemy.ext.asyncio import AsyncSession
 from .main import make
 
 traceback.install()
@@ -39,9 +40,9 @@ async def _async_rsave_log(data: dict):
 
 async def _save_to_db(data: dict):
     try:
-        async for session in get_session():
+        async with AsyncSession(engine) as session:
             log = Log(
-                data=data.get("data", {}),
+                meta=data.get("meta", {}),
                 type=_safe_enum(LogType, data.get("type"), LogType.NOT_TYPE),
                 level=_safe_enum(LogLevel, data.get("level"), LogLevel.NOT_LEVEL),
                 status=_safe_enum(LogStatus, data.get("status"), LogStatus.NOT_STATUS),
@@ -53,7 +54,6 @@ async def _save_to_db(data: dict):
             logger.debug(f"Log={log}")
             session.add(log)
             await session.commit()
-            break
     except Exception as e:
         logger.error(f"Error interno guardando log en DB: {e}")
 

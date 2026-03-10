@@ -118,10 +118,10 @@ class TZFormatter(logging.Formatter):
 class RedisHandler(logging.Handler):
     def emit(self, record: logging.LogRecord):
         try:
-            from server.core.tasks.base.task_save_logs import rsave_log, save_log
+            from ..tasks.base.task_save_logs import rsave_log, save_log
 
             log_data = {
-                "data": getattr(record, "meta", {}),
+                "meta": getattr(record, "meta", {}),
                 "type": record.levelname,
                 "level": getattr(record, "loglevel", None),
                 "status": getattr(record, "status", None),

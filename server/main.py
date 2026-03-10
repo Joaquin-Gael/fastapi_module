@@ -8,6 +8,7 @@ from rich.text import Text
 
 from server.config import Settings
 from server.core.database import close_db, init_db
+from server.core.models.base.decorators.register import flush_registry
 from server.core.utils.logger import get_logger
 from server.routes import router
 
@@ -22,6 +23,7 @@ async def lifespan(app: FastAPI):
     logger.info("Lifespan startup: Initializing DB...")
     await init_db()
     logger.info("Lifespan startup: DB Initialized.")
+    await flush_registry()
     console.print(panel)
     yield
     logger.info("Lifespan shutdown: Closing DB...")

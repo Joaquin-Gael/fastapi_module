@@ -8,8 +8,6 @@ make = Celery(
     "tasks",
     broker=f"redis://:{Settings().redis_password}@{Settings().redis_host}:{Settings().redis_port}/0",
     backend=f"redis://:{Settings().redis_password}@{Settings().redis_host}:{Settings().redis_port}/0",
-    log=logger,
-    namespace="tasks",
 )
 make.conf.update(
     task_serializer="json",
@@ -18,4 +16,6 @@ make.conf.update(
     enable_utc=True,
     broker_password=Settings().redis_password,
     result_backend_password=Settings().redis_password,
+    namespace="tasks"
 )
+make.autodiscover_tasks(["server.core.tasks.base.task_save_logs"])

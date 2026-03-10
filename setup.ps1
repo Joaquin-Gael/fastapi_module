@@ -1,1 +1,1 @@
-uvicorn server.main:app --host $env:SERVER_HOST --port $env:SERVER_PORT --reload-exclude "data/*"
+uvicorn server.main:app --host $env:SERVER_HOST --port $env:SERVER_PORT --loop uvloop --reload-exclude "data/*"

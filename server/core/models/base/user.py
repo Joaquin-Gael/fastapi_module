@@ -9,9 +9,9 @@ from server.config import Settings
 from server.core.models.base.decorators.register import register
 from server.core.utils.logger import get_logger
 
-from .groups import Group
 from .main import BaseSQLModel
-from .scopes import Scope
+from ..links.users_scopes import UserScopeLink
+from ..links.users_groups import UserGroupLink
 
 logger = get_logger(__name__)
 hasher = PasswordHasher(
@@ -34,14 +34,12 @@ class User(BaseSQLModel, table=True):
     active: bool = Field(default=True, nullable=False)
 
     scopes: list["Scope"] = Relationship(
-        link_model=Scope,
+        link_model=UserScopeLink,
         back_populates="users",
-        sa_relationship_kwargs={"cascade": "all, delete-orphan"},
     )
     groups: list["Group"] = Relationship(
-        link_model=Group,
+        link_model=UserGroupLink,
         back_populates="users",
-        sa_relationship_kwargs={"cascade": "all, delete-orphan"},
     )
 
     @property

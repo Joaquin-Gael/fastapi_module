@@ -13,10 +13,10 @@ engine: AsyncEngine = create_async_engine(
     pool_size=10,
     max_overflow=20,
     connect_args={
-        "ssl":"require",
-        "server_settings":{
-            "channel_binding":"require"
-        }
+        "ssl":None,
+        #"server_settings":{
+        #    "channel_binding":"require"
+        #}
     }
 )
 
