@@ -1,1 +1,4 @@
 .env
+requirements.txt
+requirements-dev.txt
+TESTS_IMPLEMENTATION_SUMMARY.md

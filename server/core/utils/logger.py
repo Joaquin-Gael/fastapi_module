@@ -206,20 +206,13 @@ def configure_logging() -> None:
     console_handler.setFormatter(TZFormatter(tz=timezone.utc))
     console_handler.addFilter(SensitiveDataFilter(debug=debug))
 
-    # Handler para archivo
-    log_file = Settings().log_file or Path("data/server.log")
-    log_file.parent.mkdir(parents=True, exist_ok=True)
-    file_handler = logging.FileHandler(log_file, encoding="utf-8")
-    file_handler.setLevel(level)
-    file_handler.setFormatter(TZFormatter(tz=timezone.utc))
-    file_handler.addFilter(SensitiveDataFilter(debug=debug))
-
-    # Limpia handlers previos para evitar duplicados
     logging.root.handlers.clear()
     logging.root.addHandler(console_handler)
-    logging.root.addHandler(file_handler)
 
     _configured = True
+
+
+logging.getLogger("multipart").setLevel(logging.INFO)
 
 
 def get_logger(name: str | None = None) -> logging.Logger:
@@ -233,11 +226,21 @@ def get_logger(name: str | None = None) -> logging.Logger:
 
     level = logging.DEBUG if debug else logging.INFO
 
-    # Handler para Redis
     redis_handler = RedisHandler()
     redis_handler.setLevel(level)
     redis_handler.setFormatter(TZFormatter(tz=timezone.utc))
     redis_handler.addFilter(SensitiveDataFilter(debug=debug))
+
+    log_file = Settings().log_file or Path(__file__).parent.parent.joinpath(
+        "data/server.log"
+    )
+    log_file.parent.mkdir(parents=True, exist_ok=True)
+    file_handler = logging.FileHandler(log_file, encoding="utf-8")
+    file_handler.setLevel(level)
+    file_handler.setFormatter(TZFormatter(tz=timezone.utc))
+    file_handler.addFilter(SensitiveDataFilter(debug=debug))
+
+    logging.root.addHandler(file_handler)
 
     logger = logging.getLogger(name or __name__)
     logger.addHandler(redis_handler)

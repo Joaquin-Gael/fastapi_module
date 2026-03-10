@@ -9,8 +9,6 @@ from server.core.utils.logger import _get_celery_logger
 
 logger = _get_celery_logger(__name__)
 
-# Buffer: acumula los metadatos de los modelos decorados durante el import.
-# Solo se vuelca a Redis al llamar flush_registry() en el lifespan.
 _register_buffer: list[str] = []
 
 

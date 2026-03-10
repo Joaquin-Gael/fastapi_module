@@ -1,1 +1,2 @@
-from .links import GroupScopeLink, UserGroupLink, UserScopeLink
+from .links import *
+from . import base

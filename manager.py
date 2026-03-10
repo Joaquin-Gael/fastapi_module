@@ -1,21 +1,31 @@
-import click, os, sys
+import os
+import sys
 from pathlib import Path
-from rich import print
-from rich.panel import Panel
-from rich.padding import Padding
-from rich.table import Table
-from rich.console import Console
-from rich.theme import Theme
-from pyfiglet import Figlet
-from textual import events
-from textual.app import App
-from textual.widgets import Header, Footer
 
-@click.group()
+import rich_click as click
+from pyfiglet import Figlet
+from rich import print
+from rich.console import Console
+from rich.padding import Padding
+from rich.panel import Panel
+from rich.table import Table
+from rich.theme import Theme
+from textual import events
+from textual.app import App, ComposeResult
+from textual.containers import HorizontalGroup, VerticalGroup, VerticalScroll
+from textual.widgets import Collapsible, Footer, Header, Label
+
+
+@click.group(
+    context_settings={
+        "help_option_names": ["-h", "--help"],
+    }
+)
 def cli():
     title = Figlet(font="slant").renderText("FastAPI Module Manager")
     print(f"[bold green]{title}[/bold green]")
     pass
+
 
 console = Console(
     theme=Theme(
@@ -35,9 +45,9 @@ console = Console(
     )
 )
 
+
 @cli.command()
 def info():
-
     def read_dir(path: Path) -> dict:
         buffer_folders: list[tuple[Path, int]] = []
         files_list = {}
@@ -46,68 +56,91 @@ def info():
                 if i.startswith(".") or i.startswith("__") or i == Path(__file__).name:
                     continue
                 if (path / i).is_dir():
-                    buffer_folders.append(
-                        (path / i, idx)
-                    )
+                    buffer_folders.append((path / i, idx))
                 else:
                     if not files_list.get(path.name):
                         files_list[path.name] = []
                     files_list[path.name].append(i)
-            
+
             for folder in buffer_folders:
                 files_list[folder[0].name] = read_dir(folder[0])
 
             return files_list
-                
+
         except Exception as e:
             print(f"[bold red]Error: {e}[/bold red]")
-            return []
+            return {}
 
     base_path = Path(__file__).parent
     tree_files = read_dir(base_path)
-    
+
     project_table = Table(title="Project Structure")
     project_table.add_column("Folder")
     project_table.add_column("Files")
 
     def get_color(f_name: str):
-        f_ext = f_name.split('.')[-1] if "." in f_name else "white"
+        f_ext = f_name.split(".")[-1] if "." in f_name else "white"
         return f"[{f_ext}]{f_name}[/{f_ext}]"
 
-    def add_files_to_table(files_list: dict, folder: str = "[bold green]root[/bold green]"):
+    def add_files_to_table(
+        files_list: dict, folder: str = "[bold green]root[/bold green]"
+    ):
         for key, value in files_list.items():
             if isinstance(value, dict):
                 add_files_to_table(value, f"{folder}/{key}")
             else:
-                project_table.add_row(
-                    folder, ", ".join(map(get_color, value))
-                )
+                project_table.add_row(folder, ", ".join(map(get_color, value)))
 
     add_files_to_table(tree_files)
 
     panel = Panel.fit(
-        Padding(
-            project_table,
-            (1, 10)
-        ),
-        title="Info", 
-        border_style="green"
+        Padding(project_table, (1, 10)), title="Info", border_style="green"
     )
     console.print(panel)
 
+
 @cli.command()
 def create_model():
+    class SideBar(VerticalGroup):
+        def compose(self) -> ComposeResult:
+            yield Collapsible(Label("Model-1"))
+
+    class Form(VerticalScroll):
+        def compose(self) -> ComposeResult:
+            yield Label("Form")
+
+    class Body(HorizontalGroup):
+        def compose(self) -> ComposeResult:
+            yield SideBar(id="sidebar")
+            yield Form(id="main_content")
+
     class CreateModelForm(App):
+        CSS = """
+            #sidebar {
+                width: 20;
+                background: $panel;
+                border-right: $background;
+                color: $text;
+            }
+            #main_content {
+                background: $background;
+            }
+            #main_content_container {
+                overflow-y: auto;
+                height: 100%;
+            }
+            """
+
         def on_mount(self):
             self.theme = "nord"
-        
+
         def compose(self):
             yield Header()
+            yield Body(id="main_content_container")
             yield Footer()
 
         def on_key(self, event: events.Key):
             pass
-    
 
     form_app = CreateModelForm()
     form_app.run()

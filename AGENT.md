@@ -36,16 +36,16 @@ fastapi_module/
   - *Description*: En esta carpeta se generan los scripts/herramientas/extras que se pueden invocar a lo largo de todo el proyecto
 
 - **server/core/cache/**: 
-  - *Description*: 
+  - *Description*: En esta carpeta se manega la configuracion de los clientes de redis
 
 - **server/routes/**: 
-  - *Description*: 
+  - *Description*: En esta carpeta se maneja la router madre/main que es el embudo donde convergen todos los routers
 
 - **server/schemas/**: 
-  - *Description*: 
+  - *Description*: En esta carpeta se manejan los esquemas de respuestas de las rutas que estan finamente relacionados con los modelos
 
 - **server/templates/**: 
-  - *Description*: 
+  - *Description*: En esta carpeta solamente se almacenan los archivos html y algunas utils para este fin
 
 - **server/forms/**: 
   - *Description*: 

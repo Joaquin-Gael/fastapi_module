@@ -9,6 +9,7 @@ from server.forms.logs import LogsFilterForm
 from server.templates.utils import get_template
 from server.core.spi.base.logs import SPILogs
 from server.core import SessionDep
+from server.schemas.base.logs import BaseLogSchema
 
 logger = get_logger(__name__)
 
@@ -34,7 +35,7 @@ async def models(request: Request) -> list:
 async def read_logs(request: Request, session: SessionDep, filter_form: LogsFilterForm = Form(...)):
     try:
         logs = await spi_logs.get_logs(session, filter_form.offset, filter_form.limit, filter_form.word_key)
-        return logs
+        return [BaseLogSchema.from_orm(log) for log in logs]
         
     except Exception as e:
         logger.error(f"Failed to read logs: {e}")

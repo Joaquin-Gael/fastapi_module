@@ -25,7 +25,6 @@ class SPILogs:
                 ).offset(offset).limit(limit)
             else:
                 statement = select(self.log_class).offset(offset).limit(limit)
-            print(f"{statement}")
             result = await session.execute(statement)
             return result.scalars().all()
         except Exception as e:
