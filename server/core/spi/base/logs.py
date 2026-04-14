@@ -1,11 +1,46 @@
 from sqlmodel import select
 from sqlalchemy.ext.asyncio import AsyncSession
+from typing import Optional
 from ...models.base import Log
 from ...models.enums.base import LogType, LogLevel, LogStatus, LogAction
 
+
 class SPILogs:
-    def __init__(self, log_class: Log = Log):
+    def __init__(self, log_class: type[Log] = Log):
         self.log_class = log_class
+
+    async def create_log(
+        self,
+        session: AsyncSession,
+        meta: Optional[dict] = None,
+        log_type: LogType = LogType.INFO,
+        log_level: LogLevel = LogLevel.MEDIUM,
+        log_status: LogStatus = LogStatus.NOT_STATUS,
+        log_action: LogAction = LogAction.NOT_REGISTERED,
+        assistant_message: str = "N/A",
+        source: str = "N/A",
+        final_message: str = "",
+    ) -> Log:
+        """
+        Crea un nuevo registro de log en la base de datos.
+        """
+        try:
+            log = self.log_class(
+                meta=meta or {},
+                type=log_type,
+                level=log_level,
+                status=log_status,
+                action=log_action,
+                assistant_message=assistant_message,
+                source=source,
+                final_message=final_message,
+            )
+            session.add(log)
+            await session.commit()
+            await session.refresh(log)
+            return log
+        except Exception as e:
+            raise e
 
     async def get_log_by_id(self, log_id: int, session: AsyncSession):
         try:
@@ -17,12 +52,23 @@ class SPILogs:
         except Exception as e:
             raise e
 
-    async def get_logs(self, session: AsyncSession, offset: int = 0, limit: int = 100, word_key: str | None = None):
+    async def get_logs(
+        self,
+        session: AsyncSession,
+        offset: int = 0,
+        limit: int = 100,
+        word_key: str | None = None,
+    ):
         try:
             if word_key:
-                statement = select(self.log_class).where(
-                    getattr(self.log_class, "final_message").like(f"%{word_key}%")
-                ).offset(offset).limit(limit)
+                statement = (
+                    select(self.log_class)
+                    .where(
+                        getattr(self.log_class, "final_message").like(f"%{word_key}%")
+                    )
+                    .offset(offset)
+                    .limit(limit)
+                )
             else:
                 statement = select(self.log_class).offset(offset).limit(limit)
             result = await session.execute(statement)

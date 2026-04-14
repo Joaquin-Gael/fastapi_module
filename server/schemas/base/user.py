@@ -7,7 +7,6 @@ class BaseUserSchema(BaseSchema):
     id: Optional[UUID] = None
     name: Optional[str] = Field(max_length=30, nullable=False)
     email: Optional[EmailStr] = Field(max_length=30, nullable=False, unique=True)
-    password: Optional[str] = Field(max_length=128, nullable=False)
 
     active: Optional[bool] = Field(default=True, nullable=False)
 

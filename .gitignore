@@ -2,3 +2,7 @@
 requirements.txt
 requirements-dev.txt
 TESTS_IMPLEMENTATION_SUMMARY.md
+.ruff_cache
+.pytest_cache
+/data
+

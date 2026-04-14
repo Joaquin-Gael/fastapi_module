@@ -40,6 +40,13 @@ class Settings(CoreSettings):
     pagination_max_limit: int = 200
 
     @property
+    def get_redis_broker_url(self):
+        if self.redis_password == "":
+            return f"redis://{self.redis_host}:{self.redis_port}/0"
+        else:
+            return f"redis://:{self.redis_password}@{self.redis_host}:{self.redis_port}/0"
+
+    @property
     def template_dir_full(self):
         return Path(__file__).parent / self.template_dir
 
@@ -62,3 +69,5 @@ class Settings(CoreSettings):
         if isinstance(v, str):
             return [s.strip() for s in v.split(",") if s.strip()]
         return v
+
+settings = Settings()

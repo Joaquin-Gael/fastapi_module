@@ -1,21 +1,24 @@
 from celery import Celery
-from server.config import Settings
+from server.config import settings
 from server.core.utils.logger import _get_celery_logger
 
 logger = _get_celery_logger("celery.tasks")
 
 make = Celery(
     "tasks",
-    broker=f"redis://:{Settings().redis_password}@{Settings().redis_host}:{Settings().redis_port}/0",
-    backend=f"redis://:{Settings().redis_password}@{Settings().redis_host}:{Settings().redis_port}/0",
+    broker=settings.get_redis_broker_url,
+    backend=settings.get_redis_broker_url,
+    include=[
+        "server.core.tasks.base.task_save_logs",
+    ],
 )
+
 make.conf.update(
     task_serializer="json",
     accept_content=["json"],
     result_serializer="json",
-    enable_utc=True,
-    broker_password=Settings().redis_password,
-    result_backend_password=Settings().redis_password,
+    broker_password=settings.redis_password if settings.redis_password else "",
+    result_backend_password=settings.redis_password if settings.redis_password else "",
+    timezone="America/Argentina/Buenos_Aires",
     namespace="tasks"
 )
-make.autodiscover_tasks(["server.core.tasks.base.task_save_logs"])

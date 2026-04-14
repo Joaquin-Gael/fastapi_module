@@ -1,0 +1,54 @@
+#header_form {
+    height: 5;
+}
+.field_row {
+    border: $accent;
+    margin: 1 0;
+    padding: 1;
+    background: $surface;
+}
+.max_length_input {
+    width: 12;
+}
+.default_input {
+    width: 16;
+}
+.remove_btn {
+    width: 4;
+}
+#model_name_input {
+    margin: 1;
+}
+#folder_selector {
+    margin: 1;
+    width: 40;
+}
+#new_folder_input {
+    margin: 1;
+    width: 24;
+}
+#create_folder_btn {
+    margin: 1;
+    width: 16;
+}
+#folder_feedback {
+    margin: 1;
+    height: 1;
+}
+.action_buttons {
+    margin: 1 0;
+    height: 3;
+}
+#add_field_btn {
+    margin-right: 1;
+}
+
+#new_folder_input {
+    width: 24;
+}
+#create_folder_btn {
+    width: 16;
+}
+#sidebar {
+    width: 25;
+}

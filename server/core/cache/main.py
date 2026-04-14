@@ -1,12 +1,12 @@
 from redis.asyncio import Redis
 
-from server.core.config import CoreSettings as Settings
+from server.core.config import settings
 
 redis_client = Redis(
-    host=Settings().redis_host,
-    port=Settings().redis_port,
-    decode_responses=Settings().redis_decode_responses,
-    username=Settings().redis_username,
-    password=Settings().redis_password,
-    db=Settings().redis_db[0],
+    host=settings.redis_host,
+    port=settings.redis_port,
+    decode_responses=settings.redis_decode_responses,
+    username=settings.redis_username,
+    password=settings.redis_password,
+    db=settings.redis_db[4],
 )

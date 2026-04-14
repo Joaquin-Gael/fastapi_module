@@ -44,3 +44,5 @@ class CoreSettings(BaseSettings):
         if isinstance(v, str) and not v.strip():
             return None
         return v
+
+settings = CoreSettings()

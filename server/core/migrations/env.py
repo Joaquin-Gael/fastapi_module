@@ -1,21 +1,20 @@
+import asyncio
+import os
+import sys
 from logging.config import fileConfig
 
-from sqlalchemy import engine_from_config
-from sqlalchemy import pool
+from sqlalchemy import engine_from_config, pool
 from sqlalchemy.ext.asyncio import async_engine_from_config
 from sqlmodel import SQLModel
-import sys
-import os
-import asyncio
 
 # Add the project root to sys.path to allow imports from the 'server' package
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
-
-from server.core.models.base import *
-from server.core.models.links import *
-from server.core.database import DATABASE_URL, METADATA
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../..")))
 
 from alembic import context
+
+from server.core.database import DATABASE_URL, METADATA
+from server.core.models.base import *
+from server.core.models.links.base import *
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

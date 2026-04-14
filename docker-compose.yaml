@@ -4,10 +4,8 @@ services:
   server:
     build: .
     ports:
-      - "8000:8000"
+      - "8000:8080"
     env_file: .env
-    volumes:
-      - server-space:/app
     depends_on:
       - redis
       - postgres
@@ -18,8 +16,6 @@ services:
     build: .
     command: celery -A server.core.tasks.base.main:make worker --loglevel=info --concurrency=2
     env_file: .env
-    volumes:
-      - server-space:/app
     depends_on:
       - redis
       - postgres
@@ -31,12 +27,12 @@ services:
     ports:
       - "6379:6379"
     volumes:
-      - redis-space:/data
+      - redis-space:/var/lib/redis/data
     networks:
       - default
 
   postgres:
-    image: postgres:18.3-apline3.22
+    image: postgres:18.3-alpine3.23
     ports:
       - "5432:5432"
     env_file: .env
@@ -46,11 +42,9 @@ services:
       - default
 
 volumes:
-  server-space:
   redis-space:
   postgres-space:
 
 
 networks:
   default:
-    driver: bridge

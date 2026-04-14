@@ -9,9 +9,9 @@ from server.config import Settings
 from server.core.models.base.decorators.register import register
 from server.core.utils.logger import get_logger
 
+from ..links.base.users_groups import UserGroupLink
+from ..links.base.users_scopes import UserScopeLink
 from .main import BaseSQLModel
-from ..links.users_scopes import UserScopeLink
-from ..links.users_groups import UserGroupLink
 
 logger = get_logger(__name__)
 hasher = PasswordHasher(

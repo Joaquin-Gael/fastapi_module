@@ -6,7 +6,7 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text
 
-from server.config import Settings
+from server.config import settings
 from server.core.database import close_db, init_db
 from server.core.models.base.decorators.register import flush_registry
 from server.core.utils.logger import get_logger
@@ -15,8 +15,7 @@ from server.routes import router
 console = Console()
 logger = get_logger(__name__)
 
-panel = Panel(Text(f"{Settings().server_domain}{Settings().scalar_url}"))
-
+panel = Panel(Text(f"{settings.server_domain}{settings.scalar_url}"))
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -33,17 +32,17 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     lifespan=lifespan,
-    debug=Settings().debug,
-    title=Settings().app_name,
-    version=Settings().app_version,
+    debug=settings.debug,
+    title=settings.app_name,
+    version=settings.app_version,
 )
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=Settings().cors_allowed_origins,
-    allow_credentials=Settings().cors_allow_credentials,
-    allow_methods=Settings().cors_allowed_methods,
-    allow_headers=Settings().cors_allowed_headers,
+    allow_origins=settings.cors_allowed_origins,
+    allow_credentials=settings.cors_allow_credentials,
+    allow_methods=settings.cors_allowed_methods,
+    allow_headers=settings.cors_allowed_headers,
 )
 
 app.include_router(router)

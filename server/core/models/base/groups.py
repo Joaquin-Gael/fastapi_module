@@ -1,10 +1,9 @@
 from rich import traceback
 from sqlmodel import Field, Relationship
 
-from server.core.models.base.decorators.register import register
-from server.core.models.links.groups_scopes import GroupScopeLink
-from server.core.models.links.users_groups import UserGroupLink
-
+from ..links.base.groups_scopes import GroupScopeLink
+from ..links.base.users_groups import UserGroupLink
+from .decorators.register import register
 from .main import BaseSQLModel
 
 traceback.install()

@@ -1,14 +1,17 @@
+import traceback
+
 from sqlmodel import SQLModel
 from fastapi import Depends
 from typing import Annotated
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine, AsyncEngine
-from server.core.config import CoreSettings as Settings
-from server.core.utils.logger import get_logger
+from server.core.config import settings
+from server.core.utils.logger import get_logger, _get_celery_logger
 
 logger = get_logger(__name__)
+stealth_logger = _get_celery_logger(__name__)
 
 engine: AsyncEngine = create_async_engine(
-    Settings().database_url.split("?")[0], 
+    settings.database_url,
     echo=False, #Settings().debug,
     pool_size=10,
     max_overflow=20,
@@ -21,8 +24,12 @@ engine: AsyncEngine = create_async_engine(
 )
 
 async def init_db():
-    async with engine.begin() as conn:
-        await conn.run_sync(SQLModel.metadata.create_all)
+    try:
+        async with engine.begin() as conn:
+            await conn.run_sync(SQLModel.metadata.create_all)
+    except Exception as e:
+        stealth_logger.error(e)
+        stealth_logger.error(traceback.format_exc())
 
 
 async def get_session() -> AsyncSession:
@@ -34,4 +41,4 @@ async def close_db():
 
 SessionDep = Annotated[AsyncSession, Depends(get_session)]
 METADATA = SQLModel.metadata
-DATABASE_URL = Settings().database_url
+DATABASE_URL = settings.database_url

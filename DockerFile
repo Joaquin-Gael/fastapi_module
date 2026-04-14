@@ -2,9 +2,11 @@ FROM python:3.14-alpine3.23
 
 WORKDIR /server
 
+RUN apk add --no-cache bash curl unzip
+
 COPY ./requirements.txt .
 
-COPY ./server .
+COPY . .
 
 ENV SERVER_HOST=127.0.0.1
 ENV SERVER_PORT=8000
@@ -14,4 +16,4 @@ EXPOSE 8000
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-RUN ./setup.sh
+CMD ["sh", "-c", "uvicorn server.main:app --host $SERVER_HOST --port $SERVER_PORT --loop $LOOP_MASTER"]
