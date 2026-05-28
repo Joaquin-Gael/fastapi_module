@@ -1,3 +1,3 @@
-from .manager import run
+from .manager import _run
 
-run()
+_run()

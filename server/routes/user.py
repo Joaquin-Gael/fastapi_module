@@ -3,14 +3,26 @@ from typing import Optional
 from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import EmailStr
 
-from server.core import SessionDep
-from server.core.spi.base.users import SPIBaseUsers
-from server.core.auth.dependencies import get_current_user, AuthUser
-from server.schemas.base.auth import CurrentUser
+from libs.fastapi_crudrouter import SQLModelAsyncCRUDRouter
 
-router = APIRouter(prefix="/user", tags=["User"])
+from core import SessionDep
+from core.spi.base.users import SPIBaseUsers, get_session
+from core.auth.dependencies import get_current_user, AuthUser
+from server.schemas.base.auth import CurrentUser
+from server.schemas.base.user import BaseUserSchema
+
+router = APIRouter(prefix="/user", tags=["Users"])
 spi_users = SPIBaseUsers()
 
+crud_router = SQLModelAsyncCRUDRouter(
+    schema=BaseUserSchema,
+    db_model=spi_users.user_class,
+    model_id_field="id",
+    model_name="user",
+    db=get_session,
+)
+
+router.include_router(crud_router)
 
 @router.get("/me", response_model=CurrentUser)
 async def get_current_user_info(current_user: CurrentUser = Depends(get_current_user)):
@@ -19,7 +31,6 @@ async def get_current_user_info(current_user: CurrentUser = Depends(get_current_
     Equivalente a /auth/me pero en el contexto de /user.
     """
     return current_user
-
 
 @router.put("/me", response_model=CurrentUser)
 async def update_current_user(
@@ -33,9 +44,7 @@ async def update_current_user(
     Solo actualiza los campos proporcionados (partial update).
     """
     try:
-        from uuid import UUID as U
-
-        user = await spi_users.get_user_by_id(U(str(current_user.id)), session)
+        user = await spi_users.get_user_by_id(UUID(str(current_user.id)), session)
 
         if not user:
             raise HTTPException(
@@ -92,9 +101,8 @@ async def delete_current_user(
     Para hard delete, descomenta la línea de eliminación.
     """
     try:
-        from uuid import UUID as U
 
-        user = await spi_users.get_user_by_id(U(str(current_user.id)), session)
+        user = await spi_users.get_user_by_id(current_user.id, session)
 
         if not user:
             raise HTTPException(
@@ -130,28 +138,22 @@ async def change_password(
     Cambiar la contraseña del usuario actual.
     """
     try:
-        from uuid import UUID as U
-        from server.core.models.base.user import hasher, User
-
-        user = await spi_users.get_user_by_id(U(str(current_user.id)), session)
+        user = await spi_users.get_user_by_id(UUID(str(current_user.id)), session)
 
         if not user:
             raise HTTPException(
                 status_code=status.HTTP_404_NOT_FOUND, detail="Usuario no encontrado"
             )
 
-        # Verificar contraseña actual
         try:
-            hasher.verify(user.password, current_password)
+            user.verify_password(current_password)
         except Exception:
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
                 detail="Contraseña actual incorrecta",
             )
 
-        # El setter de password se encarga de validar y hashear
-        user.password = new_password
-        await spi_users.update_user(user, session)
+        await spi_users.change_password(user, new_password, session)
 
         return {"message": "Contraseña actualizada correctamente"}
 

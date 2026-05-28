@@ -1,7 +1,7 @@
 import pytest
 import asyncio
-from server.core.database import DATABASE_URL
-from server.core.cache.main import redis_client
+from core.database import DATABASE_URL
+from core.cache.main import redis_client
 import time
 
 MAX_TIMEOUT = 30
@@ -11,7 +11,7 @@ MAX_CONNECTIONS = 100
 
 async def get_pg_connection():
     from sqlalchemy.ext.asyncio import create_async_engine
-    from server.core.config import CoreSettings as Settings
+    from server.config import CoreSettings as Settings
 
     engine = create_async_engine(Settings().database_url.split("?")[0], echo=False)
     return engine.connect()

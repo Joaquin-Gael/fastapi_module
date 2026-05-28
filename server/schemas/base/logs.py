@@ -2,7 +2,7 @@ from .main import BaseSchema
 from pydantic import Field
 from uuid import UUID
 from datetime import datetime
-from ...core.models.enums.base import LogStatus, LogType, LogLevel, LogAction
+from core.models.enums.base import LogStatus, LogType, LogLevel, LogAction
 
 class BaseLogSchema(BaseSchema):
     id: UUID = Field(default=None)

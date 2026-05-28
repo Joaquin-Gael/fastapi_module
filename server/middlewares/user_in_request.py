@@ -3,8 +3,8 @@ from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.types import ASGIApp
 
 from server.config import Settings
-from server.core.utils.logger import get_logger
-from server.core.database.main import engine, AsyncSession
+from core.utils.logger import get_logger
+from core.database.main import engine, AsyncSession
 from sqlmodel import select
 
 logger = get_logger(__name__)

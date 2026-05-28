@@ -1,0 +1,1260 @@
+2026-04-14/19:02:58Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-04-14/19:02:58Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-04-14/19:02:58Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-04-14/19:02:58Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-04-14/19:02:58Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-04-14/19:02:58Z | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-04-14/19:03:03Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-04-14/19:03:03Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-04-14/19:03:03Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-04-14/19:03:03Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-04-14/19:03:03Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-04-14/19:03:03Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-04-14/19:03:05Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-04-14/19:03:05Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-04-14/19:03:05Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-04-14/19:03:05Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-04-14/19:03:05Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-04-14/19:03:05Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-04-14/19:03:08Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-04-14/19:03:08Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-04-14/19:03:08Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-04-14/19:03:08Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-04-14/19:03:08Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-04-14/19:03:08Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-04-14/19:03:11Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-04-14/19:03:11Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-04-14/19:03:11Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-04-14/19:03:11Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-04-14/19:03:11Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-04-14/19:03:11Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-04-14/19:03:15Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-04-14/19:03:15Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-04-14/19:03:15Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-04-14/19:03:15Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-04-14/19:03:15Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-04-14/19:03:15Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-04-14/19:03:18Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-04-14/19:03:18Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-04-14/19:03:18Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-04-14/19:03:18Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-04-14/19:03:18Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-04-14/19:03:18Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-04-14/19:03:21Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-04-14/19:03:21Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-04-14/19:03:21Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-04-14/19:03:21Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-04-14/19:03:21Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-04-14/19:03:21Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-04-14/19:03:25Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-04-14/19:03:25Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-04-14/19:03:25Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-04-14/19:03:25Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-04-14/19:03:25Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-04-14/19:03:25Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-04-14/19:03:28Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-04-14/19:03:28Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-04-14/19:03:28Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-04-14/19:03:28Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-04-14/19:03:28Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-04-14/19:03:28Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-04-14/19:03:31Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-04-14/19:03:31Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-04-14/19:03:31Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-04-14/19:03:31Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-04-14/19:03:31Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-04-14/19:03:31Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-04-14/19:03:34Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-04-14/19:03:34Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-04-14/19:03:34Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-04-14/19:03:34Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-04-14/19:03:34Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-04-14/19:03:34Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-04-14/19:03:38Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-04-14/19:03:38Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-04-14/19:03:38Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-04-14/19:03:38Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-04-14/19:03:38Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-04-14/19:03:38Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-04-14/19:03:41Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-04-14/19:03:41Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-04-14/19:03:41Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-04-14/19:03:41Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-04-14/19:03:41Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-04-14/19:03:41Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-04-14/19:03:44Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-04-14/19:03:44Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-04-14/19:03:44Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-04-14/19:03:44Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-04-14/19:03:44Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-04-14/19:03:44Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-04-14/19:03:47Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-04-14/19:03:47Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-04-14/19:03:47Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-04-14/19:03:47Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-04-14/19:03:47Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-04-14/19:03:47Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-04-14/19:03:51Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-04-14/19:03:51Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-04-14/19:03:51Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-04-14/19:03:51Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-04-14/19:03:51Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-04-14/19:03:51Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-04-14/19:03:54Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-04-14/19:03:54Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-04-14/19:03:54Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-04-14/19:03:54Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-04-14/19:03:54Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-04-14/19:03:54Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-04-14/19:03:57Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-04-14/19:03:57Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-04-14/19:03:57Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-04-14/19:03:57Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-04-14/19:03:57Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-04-14/19:03:57Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-04-14/19:04:01Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-04-14/19:04:01Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-04-14/19:04:01Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-04-14/19:04:01Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-04-14/19:04:01Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-04-14/19:04:01Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-04-14/19:04:04Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-04-14/19:04:04Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-04-14/19:04:04Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-04-14/19:04:04Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-04-14/19:04:04Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-04-14/19:04:04Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-04-14/19:04:07Z | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-04-14/19:04:07Z | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-04-14/19:04:07Z | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-04-14/19:04:07Z | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-04-14/19:04:07Z | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-04-14/19:04:07Z | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-04-14/19:02:57Z | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-04-14/19:02:57Z | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-04-14/19:02:57Z | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-04-14/19:02:57Z | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-04-14/19:02:57Z | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-04-14/19:02:57Z | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-04-14/19:04:15Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-04-14/19:04:15Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-04-14/19:04:15Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-04-14/19:04:15Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-04-14/19:04:15Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-04-14/19:04:15Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-04-14/19:04:17Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-04-14/19:04:17Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-04-14/19:04:17Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-04-14/19:04:17Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-04-14/19:04:17Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-04-14/19:04:17Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-04-14/19:04:20Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-04-14/19:04:20Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-04-14/19:04:20Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-04-14/19:04:20Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-04-14/19:04:20Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-04-14/19:04:20Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-04-14/19:04:24Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-04-14/19:04:24Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-04-14/19:04:24Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-04-14/19:04:24Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-04-14/19:04:24Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-04-14/19:04:24Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-04-14/19:04:27Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-04-14/19:04:27Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-04-14/19:04:27Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-04-14/19:04:27Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-04-14/19:04:27Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-04-14/19:04:27Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-04-14/19:04:30Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-04-14/19:04:30Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-04-14/19:04:30Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-04-14/19:04:30Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-04-14/19:04:30Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-04-14/19:04:30Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-04-14/19:04:34Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-04-14/19:04:34Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-04-14/19:04:34Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-04-14/19:04:34Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-04-14/19:04:34Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-04-14/19:04:34Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-04-14/19:04:37Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-04-14/19:04:37Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-04-14/19:04:37Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-04-14/19:04:37Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-04-14/19:04:37Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-04-14/19:04:37Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-04-14/19:04:40Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-04-14/19:04:40Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-04-14/19:04:40Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-04-14/19:04:40Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-04-14/19:04:40Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-04-14/19:04:40Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-04-14/19:04:43Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-04-14/19:04:43Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-04-14/19:04:43Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-04-14/19:04:43Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-04-14/19:04:43Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-04-14/19:04:43Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-04-14/19:04:47Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-04-14/19:04:47Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-04-14/19:04:47Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-04-14/19:04:47Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-04-14/19:04:47Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-04-14/19:04:47Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-04-14/19:04:50Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-04-14/19:04:50Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-04-14/19:04:50Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-04-14/19:04:50Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-04-14/19:04:50Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-04-14/19:04:50Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-04-14/19:04:53Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-04-14/19:04:53Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-04-14/19:04:53Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-04-14/19:04:53Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-04-14/19:04:53Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-04-14/19:04:53Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-04-14/19:04:57Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-04-14/19:04:57Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-04-14/19:04:57Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-04-14/19:04:57Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-04-14/19:04:57Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-04-14/19:04:57Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-04-14/19:05:00Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-04-14/19:05:00Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-04-14/19:05:00Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-04-14/19:05:00Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-04-14/19:05:00Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-04-14/19:05:00Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-04-14/19:05:03Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-04-14/19:05:03Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-04-14/19:05:03Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-04-14/19:05:03Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-04-14/19:05:03Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-04-14/19:05:03Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-04-14/19:05:06Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-04-14/19:05:06Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-04-14/19:05:06Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-04-14/19:05:06Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-04-14/19:05:06Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-04-14/19:05:06Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-04-14/19:05:10Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-04-14/19:05:10Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-04-14/19:05:10Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-04-14/19:05:10Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-04-14/19:05:10Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-04-14/19:05:10Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-04-14/19:05:13Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-04-14/19:05:13Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-04-14/19:05:13Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-04-14/19:05:13Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-04-14/19:05:13Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-04-14/19:05:13Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-04-14/19:05:16Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-04-14/19:05:16Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-04-14/19:05:16Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-04-14/19:05:16Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-04-14/19:05:16Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-04-14/19:05:16Z | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-04-14/19:05:19Z | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-04-14/19:05:19Z | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-04-14/19:05:19Z | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-04-14/19:05:19Z | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-04-14/19:05:19Z | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-04-14/19:05:19Z | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-04-14/19:04:10Z | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-04-14/19:04:10Z | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-04-14/19:04:10Z | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-04-14/19:04:10Z | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-04-14/19:04:10Z | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-04-14/19:04:10Z | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-12/21:26:15 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-12/21:26:15 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-12/21:26:15 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-12/21:26:15 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-12/21:26:15 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-12/21:26:15 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-12/21:26:18 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-12/21:26:18 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-12/21:26:18 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-12/21:26:18 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-12/21:26:18 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-12/21:26:18 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-12/21:26:50 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-12/21:26:50 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-12/21:26:50 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-12/21:26:50 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-12/21:26:50 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-12/21:26:50 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-12/21:26:52 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-12/21:26:52 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-12/21:26:52 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-12/21:26:52 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-12/21:26:52 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-12/21:26:52 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-12/21:40:05 | INFO | main.py:28 | Lifespan shutdown: Closing DB...
+2026-05-12/21:40:05 | INFO | main.py:28 | Lifespan shutdown: Closing DB...
+2026-05-12/21:40:05 | INFO | main.py:28 | Lifespan shutdown: Closing DB...
+2026-05-12/21:40:05 | INFO | main.py:28 | Lifespan shutdown: Closing DB...
+2026-05-12/21:40:05 | INFO | main.py:28 | Lifespan shutdown: Closing DB...
+2026-05-12/21:40:05 | INFO | main.py:28 | Lifespan shutdown: Closing DB...
+2026-05-12/21:40:05 | INFO | main.py:30 | Lifespan shutdown: DB Closed.
+2026-05-12/21:40:05 | INFO | main.py:30 | Lifespan shutdown: DB Closed.
+2026-05-12/21:40:05 | INFO | main.py:30 | Lifespan shutdown: DB Closed.
+2026-05-12/21:40:05 | INFO | main.py:30 | Lifespan shutdown: DB Closed.
+2026-05-12/21:40:05 | INFO | main.py:30 | Lifespan shutdown: DB Closed.
+2026-05-12/21:40:05 | INFO | main.py:30 | Lifespan shutdown: DB Closed.
+2026-05-12/21:40:08 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-12/21:40:08 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-12/21:40:08 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-12/21:40:08 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-12/21:40:08 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-12/21:40:08 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-12/21:40:10 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-12/21:40:10 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-12/21:40:10 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-12/21:40:10 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-12/21:40:10 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-12/21:40:10 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def xstarmap(task, it):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def xstarmap(task, it):
+    return 1
+
+2026-05-28/20:31:07 | DEBUG | functional.py:335 | 
+def xstarmap(task, it):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def xstarmap(task, it):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def xstarmap(task, it):
+    return 1
+
+2026-05-28/20:33:31 | DEBUG | functional.py:335 | 
+def xstarmap(task, it):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:34:39 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:34:45 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-28/20:34:45 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-28/20:34:45 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-28/20:34:45 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-28/20:34:45 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-28/20:34:45 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-28/20:34:47 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-28/20:34:47 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-28/20:34:47 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-28/20:34:47 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-28/20:34:47 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-28/20:34:47 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-28/20:34:51 | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-05-28/20:34:51 | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-05-28/20:34:51 | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-05-28/20:34:51 | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-05-28/20:34:51 | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-05-28/20:34:51 | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-05-28/20:34:55 | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-05-28/20:34:55 | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-05-28/20:34:55 | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-05-28/20:34:55 | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-05-28/20:34:55 | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-05-28/20:34:55 | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-05-28/20:34:58 | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-05-28/20:34:58 | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-05-28/20:34:58 | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-05-28/20:34:58 | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-05-28/20:34:58 | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-05-28/20:34:58 | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-05-28/20:35:02 | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-05-28/20:35:02 | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-05-28/20:35:02 | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-05-28/20:35:02 | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-05-28/20:35:02 | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-05-28/20:35:02 | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-05-28/20:35:06 | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-05-28/20:35:06 | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-05-28/20:35:06 | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-05-28/20:35:06 | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-05-28/20:35:06 | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-05-28/20:35:06 | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-05-28/20:35:10 | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-05-28/20:35:10 | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-05-28/20:35:10 | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-05-28/20:35:10 | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-05-28/20:35:10 | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-05-28/20:35:10 | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-05-28/20:35:13 | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-05-28/20:35:13 | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-05-28/20:35:13 | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-05-28/20:35:13 | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-05-28/20:35:13 | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-05-28/20:35:13 | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-05-28/20:35:17 | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-05-28/20:35:17 | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-05-28/20:35:17 | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-05-28/20:35:17 | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-05-28/20:35:17 | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-05-28/20:35:17 | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-05-28/20:35:35 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-28/20:35:35 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-28/20:35:35 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-28/20:35:35 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-28/20:35:35 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-28/20:35:35 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-28/20:35:35 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-28/20:35:35 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-28/20:35:35 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-28/20:35:35 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-28/20:35:35 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-28/20:35:35 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-28/20:35:35 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:35:35 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:35:35 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:35:35 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:35:35 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:35:35 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-28/20:35:40 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-28/20:35:40 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-28/20:35:40 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-28/20:35:40 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-28/20:35:40 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-28/20:35:40 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-28/20:35:43 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-28/20:35:43 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-28/20:35:43 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-28/20:35:43 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-28/20:35:43 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-28/20:35:43 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-28/20:35:47 | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-05-28/20:35:47 | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-05-28/20:35:47 | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-05-28/20:35:47 | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-05-28/20:35:47 | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-05-28/20:35:47 | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-05-28/20:35:50 | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-05-28/20:35:50 | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-05-28/20:35:50 | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-05-28/20:35:50 | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-05-28/20:35:50 | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-05-28/20:35:50 | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-05-28/20:35:54 | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-05-28/20:35:54 | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-05-28/20:35:54 | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-05-28/20:35:54 | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-05-28/20:35:54 | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-05-28/20:35:54 | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-05-28/20:35:58 | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-05-28/20:35:58 | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-05-28/20:35:58 | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-05-28/20:35:58 | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-05-28/20:35:58 | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-05-28/20:35:58 | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-05-28/20:36:02 | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-05-28/20:36:02 | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-05-28/20:36:02 | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-05-28/20:36:02 | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-05-28/20:36:02 | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-05-28/20:36:02 | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-05-28/20:36:05 | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-05-28/20:36:05 | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-05-28/20:36:05 | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-05-28/20:36:05 | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-05-28/20:36:05 | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-05-28/20:36:05 | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-05-28/20:36:09 | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-05-28/20:36:09 | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-05-28/20:36:09 | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-05-28/20:36:09 | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-05-28/20:36:09 | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-05-28/20:36:09 | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-05-28/20:36:13 | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-05-28/20:36:13 | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-05-28/20:36:13 | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-05-28/20:36:13 | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-05-28/20:36:13 | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-05-28/20:36:13 | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-05-28/20:36:16 | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-05-28/20:36:16 | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-05-28/20:36:16 | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-05-28/20:36:16 | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-05-28/20:36:16 | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-05-28/20:36:16 | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-05-28/20:36:20 | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-05-28/20:36:20 | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-05-28/20:36:20 | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-05-28/20:36:20 | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-05-28/20:36:20 | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-05-28/20:36:20 | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-05-28/20:36:24 | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-05-28/20:36:24 | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-05-28/20:36:24 | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-05-28/20:36:24 | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-05-28/20:36:24 | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-05-28/20:36:24 | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-05-28/20:36:27 | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-05-28/20:36:27 | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-05-28/20:36:27 | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-05-28/20:36:27 | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-05-28/20:36:27 | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-05-28/20:36:27 | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-05-28/20:36:31 | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-05-28/20:36:31 | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-05-28/20:36:31 | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-05-28/20:36:31 | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-05-28/20:36:31 | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-05-28/20:36:31 | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-05-28/20:36:35 | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-05-28/20:36:35 | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-05-28/20:36:35 | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-05-28/20:36:35 | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-05-28/20:36:35 | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-05-28/20:36:35 | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-05-28/20:36:38 | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-05-28/20:36:38 | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-05-28/20:36:38 | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-05-28/20:36:38 | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-05-28/20:36:38 | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-05-28/20:36:38 | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-05-28/20:36:42 | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-05-28/20:36:42 | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-05-28/20:36:42 | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-05-28/20:36:42 | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-05-28/20:36:42 | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-05-28/20:36:42 | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-05-28/20:36:46 | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-05-28/20:36:46 | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-05-28/20:36:46 | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-05-28/20:36:46 | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-05-28/20:36:46 | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-05-28/20:36:46 | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-05-28/20:36:50 | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-05-28/20:36:50 | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-05-28/20:36:50 | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-05-28/20:36:50 | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-05-28/20:36:50 | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-05-28/20:36:50 | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-05-28/20:36:53 | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-05-28/20:36:53 | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-05-28/20:36:53 | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-05-28/20:36:53 | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-05-28/20:36:53 | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-05-28/20:36:53 | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-05-28/20:35:35 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-28/20:35:35 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-28/20:35:35 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-28/20:35:35 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-28/20:35:35 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-28/20:35:35 | INFO | main.py:22 | Lifespan startup: Initializing DB...
+2026-05-28/20:37:01 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-28/20:37:01 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-28/20:37:01 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-28/20:37:01 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-28/20:37:01 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-28/20:37:01 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-28/20:37:04 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-28/20:37:04 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-28/20:37:04 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-28/20:37:04 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-28/20:37:04 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-28/20:37:04 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-28/20:37:08 | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-05-28/20:37:08 | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-05-28/20:37:08 | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-05-28/20:37:08 | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-05-28/20:37:08 | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-05-28/20:37:08 | ERROR | redis.py:435 | Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-05-28/20:37:11 | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-05-28/20:37:11 | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-05-28/20:37:11 | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-05-28/20:37:11 | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-05-28/20:37:11 | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-05-28/20:37:11 | ERROR | redis.py:435 | Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-05-28/20:37:15 | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-05-28/20:37:15 | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-05-28/20:37:15 | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-05-28/20:37:15 | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-05-28/20:37:15 | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-05-28/20:37:15 | ERROR | redis.py:435 | Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-05-28/20:37:19 | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-05-28/20:37:19 | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-05-28/20:37:19 | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-05-28/20:37:19 | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-05-28/20:37:19 | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-05-28/20:37:19 | ERROR | redis.py:435 | Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-05-28/20:37:23 | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-05-28/20:37:23 | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-05-28/20:37:23 | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-05-28/20:37:23 | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-05-28/20:37:23 | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-05-28/20:37:23 | ERROR | redis.py:435 | Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-05-28/20:37:26 | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-05-28/20:37:26 | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-05-28/20:37:26 | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-05-28/20:37:26 | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-05-28/20:37:26 | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-05-28/20:37:26 | ERROR | redis.py:435 | Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-05-28/20:37:30 | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-05-28/20:37:30 | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-05-28/20:37:30 | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-05-28/20:37:30 | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-05-28/20:37:30 | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-05-28/20:37:30 | ERROR | redis.py:435 | Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-05-28/20:37:34 | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-05-28/20:37:34 | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-05-28/20:37:34 | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-05-28/20:37:34 | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-05-28/20:37:34 | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-05-28/20:37:34 | ERROR | redis.py:435 | Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-05-28/20:37:37 | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-05-28/20:37:37 | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-05-28/20:37:37 | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-05-28/20:37:37 | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-05-28/20:37:37 | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-05-28/20:37:37 | ERROR | redis.py:435 | Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-05-28/20:37:41 | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-05-28/20:37:41 | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-05-28/20:37:41 | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-05-28/20:37:41 | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-05-28/20:37:41 | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-05-28/20:37:41 | ERROR | redis.py:435 | Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-05-28/20:37:45 | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-05-28/20:37:45 | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-05-28/20:37:45 | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-05-28/20:37:45 | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-05-28/20:37:45 | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-05-28/20:37:45 | ERROR | redis.py:435 | Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-05-28/20:37:48 | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-05-28/20:37:48 | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-05-28/20:37:48 | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-05-28/20:37:48 | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-05-28/20:37:48 | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-05-28/20:37:48 | ERROR | redis.py:435 | Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-05-28/20:37:52 | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-05-28/20:37:52 | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-05-28/20:37:52 | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-05-28/20:37:52 | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-05-28/20:37:52 | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-05-28/20:37:52 | ERROR | redis.py:435 | Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-05-28/20:37:56 | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-05-28/20:37:56 | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-05-28/20:37:56 | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-05-28/20:37:56 | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-05-28/20:37:56 | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-05-28/20:37:56 | ERROR | redis.py:435 | Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-05-28/20:37:59 | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-05-28/20:37:59 | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-05-28/20:37:59 | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-05-28/20:37:59 | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-05-28/20:37:59 | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-05-28/20:37:59 | ERROR | redis.py:435 | Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-05-28/20:38:03 | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-05-28/20:38:03 | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-05-28/20:38:03 | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-05-28/20:38:03 | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-05-28/20:38:03 | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-05-28/20:38:03 | ERROR | redis.py:435 | Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-05-28/20:38:07 | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-05-28/20:38:07 | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-05-28/20:38:07 | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-05-28/20:38:07 | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-05-28/20:38:07 | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-05-28/20:38:07 | ERROR | redis.py:435 | Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-05-28/20:38:10 | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-05-28/20:38:10 | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-05-28/20:38:10 | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-05-28/20:38:10 | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-05-28/20:38:10 | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-05-28/20:38:10 | ERROR | redis.py:435 | Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-05-28/20:38:14 | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-05-28/20:38:14 | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-05-28/20:38:14 | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-05-28/20:38:14 | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-05-28/20:38:14 | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-05-28/20:38:14 | CRITICAL | redis.py:135 | 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2026-05-28/20:36:56 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-28/20:36:56 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-28/20:36:56 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-28/20:36:56 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-28/20:36:56 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-28/20:36:56 | INFO | main.py:24 | Lifespan startup: DB Initialized.
+2026-05-28/20:41:33 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-28/20:41:33 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-28/20:41:33 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-28/20:41:33 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-28/20:41:33 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-28/20:41:33 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-28/20:41:33 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-28/20:41:33 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-28/20:41:33 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-28/20:41:33 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-28/20:41:33 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-28/20:41:33 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-28/20:43:04 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-28/20:43:04 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-28/20:43:04 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-28/20:43:04 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-28/20:43:04 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-28/20:43:04 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-28/20:43:04 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-28/20:43:04 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-28/20:43:04 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-28/20:43:04 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-28/20:43:04 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-28/20:43:04 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+

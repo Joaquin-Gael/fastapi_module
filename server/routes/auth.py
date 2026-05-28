@@ -1,10 +1,11 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 
-from server.core import SessionDep
-from server.core.spi.base.users import SPIBaseUsers
-from server.core.models.base.user import hasher
-from server.core.auth.keep_secret import get_token, read_token
-from server.core.auth.dependencies import get_current_user, AuthUser
+from core import SessionDep
+from core.models.base.user import User
+from core.spi.base.users import SPIBaseUsers
+from core.models.base.user import hasher
+from core.auth.keep_secret import get_token, read_token
+from core.auth.dependencies import get_current_user, AuthUser
 
 from server.schemas.base.auth import (
     LoginRequest,
@@ -31,19 +32,15 @@ async def register(request: RegisterRequest, session: SessionDep):
                 detail="El email ya está registrado",
             )
 
-        # Crear nuevo usuario
-        from server.core.models.base.user import User
-
         new_user = User(
             name=request.name,
             email=request.email,
-            password=request.password,  # El setter se encarga de hashear
+            password=request.password,
             active=True,
         )
 
         created_user = await spi_users.create_user(new_user, session)
 
-        # Generar token
         token = await get_token(
             {
                 "uid": str(created_user.id),

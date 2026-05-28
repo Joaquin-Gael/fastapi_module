@@ -7,9 +7,9 @@ from rich.panel import Panel
 from rich.text import Text
 
 from server.config import settings
-from server.core.database import close_db, init_db
-from server.core.models.base.decorators.register import flush_registry
-from server.core.utils.logger import get_logger
+from core.database import close_db, init_db
+from core.models.base.decorators.register import flush_registry
+from core.utils.logger import get_logger
 from server.routes import router
 
 console = Console()

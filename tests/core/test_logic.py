@@ -1,8 +1,8 @@
 import pytest
 import time
 import asyncio
-from server.core.database import DATABASE_URL
-from server.core.cache.main import redis_client
+from core.database import DATABASE_URL
+from core.cache.main import redis_client
 
 PG_SELECT_THRESHOLD = 0.05
 REDIS_OP_THRESHOLD = 0.01

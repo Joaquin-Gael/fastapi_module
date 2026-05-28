@@ -4,7 +4,7 @@ from typing import List, Optional
 from pydantic import EmailStr, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-from server.core.config import CoreSettings
+from core.config import CoreSettings
 
 
 class Settings(CoreSettings):
@@ -39,12 +39,12 @@ class Settings(CoreSettings):
     pagination_default_limit: int = 50
     pagination_max_limit: int = 200
 
-    @property
-    def get_redis_broker_url(self):
-        if self.redis_password == "":
-            return f"redis://{self.redis_host}:{self.redis_port}/0"
-        else:
-            return f"redis://:{self.redis_password}@{self.redis_host}:{self.redis_port}/0"
+    #@property
+    #def get_redis_broker_url(self):
+    #    if self.redis_password == "":
+    #        return f"redis://{self.redis_host}:{self.redis_port}/0"
+    #    else:
+    #        return f"redis://{self.redis_username}:{self.redis_password}@{self.redis_host}:{self.redis_port}/0"
 
     @property
     def template_dir_full(self):

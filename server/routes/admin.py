@@ -4,15 +4,15 @@ from fastapi import APIRouter, Form, Request, Depends, HTTPException, status
 from pydantic import BaseModel
 from typing import Optional
 
-from server.config import Settings
-from server.core.cache import rc
-from server.core.utils.logger import get_logger
+from server.config import settings
+from core.cache import rc
+from core.utils.logger import get_logger
 from server.forms.logs import LogsFilterForm
 from server.templates.utils import get_template
-from server.core.spi.base.logs import SPILogs
-from server.core.spi.base.users import SPIBaseUsers
-from server.core import SessionDep
-from server.core.auth.dependencies import get_current_user
+from core.spi.base.logs import SPILogs
+from core.spi.base.users import SPIBaseUsers
+from core import SessionDep
+from core.auth.dependencies import get_current_user
 from server.schemas.base.logs import BaseLogSchema
 from server.schemas.base.auth import CurrentUser
 
