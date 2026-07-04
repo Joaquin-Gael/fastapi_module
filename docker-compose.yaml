@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
   server:
     build: .
@@ -9,12 +7,13 @@ services:
     depends_on:
       - redis
       - postgres
+      - celery_worker
     networks:
       - default
 
   celery_worker:
     build: .
-    command: celery -A server.core.tasks.base.main:make worker --loglevel=info --concurrency=2
+    command: celery -A core.tasks.base.main:make worker --loglevel=info --concurrency=2
     env_file: .env
     depends_on:
       - redis
@@ -24,8 +23,10 @@ services:
 
   redis:
     image: redis:alpine
+    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD}
     ports:
       - "6379:6379"
+    env_file: .env
     volumes:
       - redis-space:/var/lib/redis/data
     networks:

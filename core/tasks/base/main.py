@@ -11,6 +11,7 @@ make = Celery(
     include=[
         "core.tasks.base.task_save_logs",
     ],
+    #log=logger,
 )
 
 make.conf.update(

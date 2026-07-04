@@ -1258,3 +1258,843 @@ def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retri
 def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
     return 1
 
+2026-05-31/17:59:03 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-31/17:59:03 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-31/17:59:03 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-31/17:59:03 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-31/17:59:03 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-31/17:59:03 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-31/17:59:03 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-31/17:59:03 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-31/17:59:03 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-31/17:59:03 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-31/17:59:03 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-31/17:59:03 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-31/18:10:06 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-31/18:10:06 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-31/18:10:06 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-31/18:10:06 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-31/18:10:06 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-31/18:10:06 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-31/18:10:06 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-31/18:10:06 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-31/18:10:06 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-31/18:10:06 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-31/18:10:06 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-31/18:10:06 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-31/18:11:39 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-31/18:11:39 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-31/18:11:39 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-31/18:11:39 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-31/18:11:39 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-31/18:11:39 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-31/18:11:39 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-31/18:11:39 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-31/18:11:39 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-31/18:11:39 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-31/18:11:39 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-31/18:11:39 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-31/18:13:20 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-31/18:13:20 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-31/18:13:20 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-31/18:13:20 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-31/18:13:20 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-31/18:13:20 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-31/18:13:25 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-31/18:13:25 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-31/18:13:25 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-31/18:13:25 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-31/18:13:25 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-31/18:13:25 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-05-31/18:13:27 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-31/18:13:27 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-31/18:13:27 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-31/18:13:27 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-31/18:13:27 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-31/18:13:27 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-05-31/18:14:10 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-31/18:14:10 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-31/18:14:10 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-31/18:14:10 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-31/18:14:10 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-31/18:14:10 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-31/18:14:10 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-31/18:14:10 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-31/18:14:10 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-31/18:14:10 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-31/18:14:10 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-31/18:14:10 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-31/18:15:17 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-31/18:15:17 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-31/18:15:17 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-31/18:15:17 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-31/18:15:17 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-31/18:15:17 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-31/18:15:40 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-31/18:15:40 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-31/18:15:40 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-31/18:15:40 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-31/18:15:40 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-31/18:15:40 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-31/18:15:40 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-31/18:15:40 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-31/18:15:40 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-31/18:15:40 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-31/18:15:40 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-31/18:15:40 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-31/18:15:40 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-31/18:15:40 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-31/18:15:40 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-31/18:18:09 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-05-31/18:18:09 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-05-31/18:18:09 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-05-31/18:18:09 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-05-31/18:18:09 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-05-31/18:18:09 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-05-31/18:18:09 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-05-31/18:18:09 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-05-31/18:18:09 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-05-31/18:18:09 | DEBUG | functional.py:335 | 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2026-05-31/18:18:09 | DEBUG | functional.py:335 | 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2026-05-31/18:18:09 | DEBUG | functional.py:335 | 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2026-05-31/18:18:09 | DEBUG | functional.py:335 | 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2026-05-31/18:18:09 | DEBUG | functional.py:335 | 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2026-05-31/18:18:09 | DEBUG | functional.py:335 | 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2026-05-31/18:18:09 | DEBUG | functional.py:335 | 
+def xstarmap(task, it):
+    return 1
+
+2026-05-31/18:18:09 | DEBUG | functional.py:335 | 
+def xstarmap(task, it):
+    return 1
+
+2026-05-31/18:18:09 | DEBUG | functional.py:335 | 
+def xstarmap(task, it):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def xstarmap(task, it):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def xstarmap(task, it):
+    return 1
+
+2026-05-31/20:56:08 | DEBUG | functional.py:335 | 
+def xstarmap(task, it):
+    return 1
+
+2026-06-04/02:33:21 | DEBUG | proactor_events.py:633 | Using proactor: IocpProactor
+2026-06-04/02:33:21 | DEBUG | proactor_events.py:633 | Using proactor: IocpProactor
+2026-06-04/02:33:21 | DEBUG | proactor_events.py:633 | Using proactor: IocpProactor
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def xstarmap(task, it):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def xstarmap(task, it):
+    return 1
+
+2026-06-04/02:34:01 | DEBUG | functional.py:335 | 
+def xstarmap(task, it):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def chain(*args, **kwargs):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def chunks(task, it, n):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def save_log(data):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def backend_cleanup():
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def xmap(task, it):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def xstarmap(task, it):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def xstarmap(task, it):
+    return 1
+
+2026-06-04/02:59:44 | DEBUG | functional.py:335 | 
+def xstarmap(task, it):
+    return 1
+
+2026-06-05/22:43:25 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-06-05/22:43:25 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-06-05/22:43:25 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-06-05/22:43:30 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-06-05/22:43:30 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-06-05/22:43:30 | ERROR | redis.py:435 | Connection to Redis lost: Retry (0/20) now.
+2026-06-05/22:43:33 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-06-05/22:43:33 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-06-05/22:43:33 | ERROR | redis.py:435 | Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-06-05/22:45:42 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-06-05/22:45:42 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-06-05/22:45:42 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-06-05/22:54:27 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-06-05/22:54:27 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-06-05/22:54:27 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-06-06/02:58:59 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-06-06/02:58:59 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-06-06/02:58:59 | DEBUG | functional.py:335 | 
+def rsave_log(data):
+    return 1
+
+2026-06-06/04:22:59 | DEBUG | proactor_events.py:633 | Using proactor: IocpProactor
+2026-06-06/04:22:59 | DEBUG | proactor_events.py:633 | Using proactor: IocpProactor
+2026-06-06/04:22:59 | DEBUG | proactor_events.py:633 | Using proactor: IocpProactor

@@ -13,16 +13,6 @@ security = HTTPBearer(auto_error=False)
 
 spi_users = SPIBaseUsers()
 
-
-class AuthUser:
-    """Clase para almacenar el usuario autenticado"""
-
-    def __init__(self, user_data: dict):
-        self.uid = user_data.get("uid")
-        self.email = user_data.get("email")
-        self.name = user_data.get("name")
-
-
 async def get_current_user(
     credentials: HTTPAuthorizationCredentials = Depends(security),
     session: SessionDep = None,

@@ -7,11 +7,15 @@ from libs.fastapi_crudrouter import SQLModelAsyncCRUDRouter
 
 from core import SessionDep
 from core.spi.base.users import SPIBaseUsers, get_session
-from core.auth.dependencies import get_current_user, AuthUser
+from core.auth.dependencies import get_current_user
 from server.schemas.base.auth import CurrentUser
 from server.schemas.base.user import BaseUserSchema
 
-router = APIRouter(prefix="/user", tags=["Users"])
+router = APIRouter(
+    prefix="/user",
+    tags=["Users"],
+    dependencies=[Depends(get_current_user)], #TODO: agregar estas validaciones
+)
 spi_users = SPIBaseUsers()
 
 crud_router = SQLModelAsyncCRUDRouter(
@@ -20,6 +24,8 @@ crud_router = SQLModelAsyncCRUDRouter(
     model_id_field="id",
     model_name="user",
     db=get_session,
+    delete_all_route=False,
+    get_all_route=False
 )
 
 router.include_router(crud_router)
@@ -34,10 +40,10 @@ async def get_current_user_info(current_user: CurrentUser = Depends(get_current_
 
 @router.put("/me", response_model=CurrentUser)
 async def update_current_user(
+    session: SessionDep,
     name: Optional[str] = None,
     email: Optional[EmailStr] = None,
     current_user: CurrentUser = Depends(get_current_user),
-    session: SessionDep = None,
 ):
     """
     Actualizar información del usuario actual.
@@ -51,11 +57,9 @@ async def update_current_user(
                 status_code=status.HTTP_404_NOT_FOUND, detail="Usuario no encontrado"
             )
 
-        # Actualizar solo los campos proporcionados
         if name is not None:
             user.name = name
         if email is not None:
-            # Verificar que el nuevo email no esté en uso
             existing = await spi_users.get_user_by_email(email, session)
             if existing and existing.id != user.id:
                 raise HTTPException(
@@ -66,7 +70,6 @@ async def update_current_user(
 
         updated_user = await spi_users.update_user(user, session)
 
-        # Retornar con scopes y groups
         scopes = (
             [scope.name for scope in updated_user.scopes] if updated_user.scopes else []
         )
@@ -94,7 +97,7 @@ async def update_current_user(
 
 @router.delete("/me", status_code=status.HTTP_204_NO_CONTENT)
 async def delete_current_user(
-    current_user: CurrentUser = Depends(get_current_user), session: SessionDep = None
+    session: SessionDep, current_user: CurrentUser = Depends(get_current_user),
 ):
     """
     Eliminar la cuenta del usuario actual (soft delete - desactivar).
@@ -109,11 +112,9 @@ async def delete_current_user(
                 status_code=status.HTTP_404_NOT_FOUND, detail="Usuario no encontrado"
             )
 
-        # Soft delete: desactivar usuario
         user.active = False
         await spi_users.update_user(user, session)
 
-        # Hard delete (descomenta si necesitas eliminar físicamente):
         # await spi_users.delete_user(user.id, session)
 
         return None
@@ -131,8 +132,8 @@ async def delete_current_user(
 async def change_password(
     current_password: str,
     new_password: str,
+    session: SessionDep,
     current_user: CurrentUser = Depends(get_current_user),
-    session: SessionDep = None,
 ):
     """
     Cambiar la contraseña del usuario actual.

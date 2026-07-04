@@ -166,6 +166,7 @@ def _get_celery_logger(name: str | None = None) -> logging.Logger:
     return logger
 
 
+
 def configure_logging() -> None:
     """
     Configura logging global si aún no está configurado:

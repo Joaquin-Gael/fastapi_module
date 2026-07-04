@@ -5,7 +5,7 @@ from core.models.base.user import User
 from core.spi.base.users import SPIBaseUsers
 from core.models.base.user import hasher
 from core.auth.keep_secret import get_token, read_token
-from core.auth.dependencies import get_current_user, AuthUser
+from core.auth.dependencies import get_current_user
 
 from server.schemas.base.auth import (
     LoginRequest,

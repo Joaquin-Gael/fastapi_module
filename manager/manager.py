@@ -1,8 +1,10 @@
 import os
-import traceback
 import subprocess
+import traceback
 from asyncio import run
 from pathlib import Path
+from sqlmodel import select
+from sqlalchemy.orm import selectinload
 
 import aiofiles
 import rich_click as click
@@ -10,13 +12,13 @@ from mako.template import Template
 from pyfiglet import Figlet
 from rich import print
 from rich.console import Console
-from rich.padding import Padding
-from rich.prompt import Prompt
-from rich.panel import Panel
-from rich.table import Table
-from rich.theme import Theme
-from rich.text import Text
 from rich.live import Live
+from rich.padding import Padding
+from rich.panel import Panel
+from rich.prompt import Prompt
+from rich.table import Table
+from rich.text import Text
+from rich.theme import Theme
 from textual import events
 from textual.app import App, ComposeResult
 from textual.containers import HorizontalGroup, VerticalGroup, VerticalScroll
@@ -34,13 +36,17 @@ from textual.widgets import (
     TextArea,
 )
 
-from core.models.base.user import User
-from core.models.base.scopes import Scope
+from core.database.main import AsyncSession, DATABASE_URL, create_async_engine
 from core.models.base.groups import Group
-from core.database.main import AsyncSession, engine
-
+from core.models.base.scopes import Scope
+from core.models.base.user import User
+from core.utils.async_runner import run_async
 
 MANAGER_PATH = Path(__file__).parent
+
+from logging import getLogger
+
+from rich.logging import RichHandler
 
 
 @click.group(
@@ -51,8 +57,7 @@ MANAGER_PATH = Path(__file__).parent
 def cli():
     title = Figlet(font="slant").renderText("FastAPI Module Manager")
     title_panel = Panel(
-        title.normalize_surrounding_newlines(),
-        title="FastAPI Module Manager"
+        title.normalize_surrounding_newlines(), title="FastAPI Module Manager"
     )
     print(title_panel)
     pass
@@ -72,10 +77,23 @@ console = Console(
             "json": "bold yellow",
             "txt": "bold white",
             "log": "#F5EE9E",
+            "lock": "bold dark_goldenrod",
+            "ps1": "bold blue",
+            "cmd": "bold grey53",
+            "sh": "bold red3",
+            "mako": "bold deep_pink4",
         }
     )
 )
 
+
+logger = getLogger(__name__)
+logger.addHandler(RichHandler(console=console))
+
+def get_engine():
+    return create_async_engine(
+        DATABASE_URL
+    )
 
 def read_dir(path: Path, file_ext: str | None = None) -> dict:
     buffer_folders: list[tuple[Path, int]] = []
@@ -164,6 +182,27 @@ def info() -> None:
     )
     console.print(panel)
 
+async def get_groups_and_scopes():
+    async with AsyncSession(get_engine()) as session:
+        results = await session.execute(
+            select(Group)
+            .options(
+                selectinload(Group.scopes),
+                selectinload(Group.users)
+            )
+            .where(Group.name == "admin")
+        )
+        results_2 = await session.execute(
+            select(Scope)
+            .options(
+                selectinload(Scope.groups),
+                selectinload(Scope.users), #TODO: arreglar el problema con el atributo de usuarios
+            )
+            .where(Scope.name == "admin")
+        )
+
+    return results.first(), results_2.first()
+
 @cli.command()
 @click.argument("admin_name", type=str, required=True)
 @click.option("--stealthly", type=bool, default=False)
@@ -173,49 +212,59 @@ def create_admin_user(admin_name: str, stealthly: bool) -> None:
             f"[green]admin: [/green] [bold]{admin_name}[/bold] [green]nesesita un email y una password[/green]"
         )
     )
-    email = Prompt.ask(
-        "ingrese el email (sera verificado)",
-        default="admin@admin.com"
-    )
-    password = Prompt.ask(
-        "ingrese la password (sera verificada)",
-        password=True
-    )
+    email = Prompt.ask("ingrese el email (sera verificado)", default="admin@admin.com")
+    password = Prompt.ask("ingrese la password (sera verificada)", password=True, default="random")
 
-    with Live(Text("Start ... 🚀") ,console=console, refresh_per_second=2) as live:
+    if password == "random":
+        import secrets
+        import string
+
+        password = "".join([secrets.choice(string.ascii_letters + string.digits + r"!#$%&'()*+,-./:;<=>?@[\]^_`{|}~]") for _ in range(secrets.choice([8, 16, 24, 36]))])
+        console.print(
+            Panel(
+                f"[bold white]tu contraseña temporal: {password}[/bold white]"
+            )
+        )
+
+    with Live(Text("Start ... 🚀"), console=console, refresh_per_second=2) as live:
         try:
-            admin_user = User(
-                name=admin_name,
-                email=email,
-                _password=password
-            )
-            live.update(
-                Text(
-                    "Creating user ... 👤"
-                )
-            )
-            print(password)
+            live.update(f"Search groups and scopes 🔎 ...")
+            admin_group, admin_scope = run_async(get_groups_and_scopes())
+            live.update(f"Scopes and Groups founds {admin_scope} and {admin_group} ...")
+
+            admin_user = User(name=admin_name, email=email, password=password)
+            live.update(Text("Creating user ... 👤"))
             admin_user.set_password = password
-            admin_scope = Scope(
-                name="admin",
-            )
-            admin_scope.users.append(admin_user)
-            admin_group = Group(
-                name="admin",
-            )
-            admin_group.scopes.append(admin_scope)
-            admin_group.users.append(admin_user)
+            if not admin_scope:
+                admin_scope = Scope(
+                    name="admin",
+                )
+                admin_scope.users.append(admin_user)
+            else:
+                admin_scope.users.append(admin_user) #TODO: el de aca
+
+            if not admin_group:
+                admin_group = Group(
+                    name="admin",
+                )
+                admin_group.scopes.append(admin_scope)
+                admin_group.users.append(admin_user)
+            else:
+                admin_group.users.append(admin_user)
 
             async def _flush():
                 try:
-                    async with AsyncSession(engine) as session:
+                    async with AsyncSession(get_engine()) as session:
                         session.add(admin_user)
                         session.add(admin_scope)
                         session.add(admin_group)
                         await session.commit()
                     console.print(
                         Panel(
-                            Text(f"Admin: {admin_name} creado con exito ✅", style="bold green")
+                            Text(
+                                f"Admin: {admin_name} creado con exito ✅",
+                                style="bold green",
+                            )
                         )
                     )
                 except Exception as e:
@@ -223,17 +272,16 @@ def create_admin_user(admin_name: str, stealthly: bool) -> None:
                     console.print(traceback.format_exc())
                     console.print(
                         Panel(
-                            Text(f"Admin: {admin_name} no pudo ser creado con exito ❌", style="bold red")
+                            Text(
+                                f"Admin: {admin_name} no pudo ser creado con exito ❌",
+                                style="bold red",
+                            )
                         )
                     )
                     return 0
 
-            live.update(
-                Text(
-                    f"Flushing user ... 🛠️"
-                )
-            )
-            run(_flush())
+            live.update(Text(f"Flushing user ... 🛠️"))
+            run_async(_flush())
 
         except ValueError as e:
             console.print(e)
@@ -595,99 +643,103 @@ def create_model() -> None:
     form_app = CreateModelForm()
     form_app.run()
 
+#TODO: crear comando para crear routers completos de CRUD
+
 @cli.command()
 @click.option("--host", type=str, default="0.0.0.0")
 @click.option("--port", type=int, default=8000)
+@click.option("--doc", type=str, default="./docker-compose.yml")
 @click.option("--loop", type=click.Choice(["uvloop", "asyncio"]), default="asyncio")
-@click.option("--doc", type=bool, default=False)
-@click.option("--venv", type=str, default=None, help="Path to the .venv directory")
-@click.option("--poetry", type=bool, default=True, help="Use poetry")
-@click.option("--celery-log-level", type=str, default="info", help="Log level for celery")
-@click.option("--celery-concurrency", type=int, default=1, help="Concurrency for celery")
+@click.option(
+    "--celery-log-level", type=str, default="info", help="Log level for celery"
+)
+@click.option(
+    "--celery-concurrency", type=int, default=1, help="Concurrency for celery"
+)
 def run_server(
-        host:str,
-        port:int,
-        loop:str,
-        doc: bool,
-        poetry: bool,
-        venv: str | None,
-        celery_log_level: str,
-        celery_concurrency: int
+    host: str,
+    port: int,
+    doc: str,
+    loop: str,
+    celery_log_level: str,
+    celery_concurrency: int,
 ) -> None:
     with Live("Starting ...", console=console, refresh_per_second=4) as live:
         try:
-            if poetry and not venv:
-                live.update("Starting poetry ...")
-                venv_context_result = subprocess.Popen(
-                    ["poetry", "env", "activate"],
-                    #capture_output=True,
-                    stdout=subprocess.PIPE
-                )
-                if venv_context_result.returncode != 0:
-                    live.update("[bold green]Poetry Successfully Activated[/bold green]")
-                else:
-                    live.update("[bold red]Poetry Error[/bold red]")
-                    venv_context_result.kill()
+            if doc:
+                live.update("Starting [blue]docker[/blue] ...")
 
-            if venv and not poetry:
-                live.update("Starting venv ...")
-                match os.name:
-                    case "nt":
-                        venv_context_result = subprocess.Popen(
-                            [Path(venv).joinpath("Scripts", "activate").as_posix()],
-                            #capture_output=True,
-
-                            stdout=subprocess.PIPE
-                        )
-                    case "posix":
-                        venv_context_result = subprocess.Popen(
-                            [Path(venv).joinpath("bin", "activate").as_posix()],
-                            #capture_output=True,
-                            stdout=subprocess.PIPE
-                        )
-
-                if venv_context_result.returncode != 0:
-                    live.update("[bold green]Venv Successfully Activated[/bold green]")
-                else:
-                    live.update("[bold red]Poetry Error[/bold red]")
-                    venv_context_result.kill()
-
-            live.update("Starting celery ...")
-
-            start_celery_result = subprocess.Popen(
-                [
-                    "celery",
-                    "-A",
-                    "core.tasks.base.main:make",
-                    "worker",
-                    f"--loglevel={celery_log_level}",
-                    f"--concurrency={celery_concurrency}"
-                ],
-                #capture_output=True,
-                stdout=subprocess.PIPE
-            )
-
-            if start_celery_result.wait() != 0:
-                start_server_result = subprocess.run(
-                    ["uvicorn",
-                     "server.main:app",
-                     "--host", f"{host}",
-                     "--port", f"{port}",
-                     f"--loop", f"{loop}"
-                     ],
+                start_with_docker_result = subprocess.run(
+                    [
+                        "docker",
+                        "compose",
+                        "up",
+                        "--build",
+                    ],
                     cwd=MANAGER_PATH.parent,
-                    stdin=start_celery_result.stdout,
-                    # capture_output=True,
-                    check=True,
                     stdout=subprocess.PIPE,
-                    shell=True
                 )
+                if start_with_docker_result.returncode != 0:
+                    live.update("Failed to start docker")
+                    raise subprocess.CalledProcessError(
+                        start_with_docker_result.returncode,
+                        start_with_docker_result.args,
+                        start_with_docker_result.stdout,
+                        start_with_docker_result.stderr,
+                    )
+
+                live.update(f"Docker started [bold green]successfully[/bold green]\nhttp://{os.environ.get("SERVER_HOST")}:{os.environ.get("SERVER_PORT")}")
+
             else:
-                live.update("[bold red]Celery Error and Server[/bold red]")
-                start_celery_result.kill()
+                live.update("Starting celery ...")
+
+                start_celery_result = subprocess.Popen(
+                    [
+                        "celery",
+                        "-A",
+                        "core.tasks.base.main:make",
+                        "worker",
+                        f"--loglevel={celery_log_level}",
+                        f"--concurrency={celery_concurrency}",
+                    ],
+                    # capture_output=True,
+                    stdout=subprocess.PIPE,
+                )
+                console.print(
+                    f"celery result: {start_celery_result.stdout.read().decode('utf-8')}"
+                )
+
+                if start_celery_result.wait() == 0:
+                    start_server_result = subprocess.run(
+                        [
+                            "uvicorn",
+                            "server.main:app",
+                            "--host",
+                            f"{host}",
+                            "--port",
+                            f"{port}",
+                            f"--loop",
+                            f"{loop}",
+                        ],
+                        cwd=MANAGER_PATH.parent,
+                        # stdin=start_celery_result.stdout,
+                        # capture_output=True,
+                        check=True,
+                        stdout=subprocess.PIPE,
+                        shell=True,
+                    )
+                    if start_server_result.returncode != 0:
+                        live.update("Failed to start\nsecure your self to have the dependencies")
+                else:
+                    live.update("[bold red]Celery Error and Server[/bold red]")
+                    start_celery_result.kill()
+
+        except KeyboardInterrupt:
+            live.update("[bold yellow]Stop Server[/bold yellow]")
 
         except Exception:
             console.print_exception()
+#TODO: reconsiderar esta funcion
 
 def _run():
     cli()
